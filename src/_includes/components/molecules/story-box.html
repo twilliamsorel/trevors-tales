@@ -1,0 +1,21 @@
+{% assign story = include.story %}
+<a href="{{ story.url }}">
+  <div class="preview">
+    <div class="window">
+      {% if story.image %} {% asset '{{ story.image }}' %} {% endif %}
+    </div>
+    <h3 class="inverted">
+      <a href="{{ story.url }}">{{ story.title }}</a>
+    </h3>
+    <div class="content">
+      <span class="subheader-2">
+        {% for category in story.categories %}
+          {{ category }}{% if forloop.index < story.categories.size %}, {% endif %}
+        {% endfor %}
+        <span class="date">Published {{ story.date | date_to_long_string }}</span>
+      </span> 
+      <br>
+      {{ story.description | default: story.content | truncate: 200 }}
+    </div>
+  </div>
+</a>

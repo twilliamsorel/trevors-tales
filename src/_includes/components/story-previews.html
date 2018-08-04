@@ -1,0 +1,22 @@
+{% assign stories = site.stories %}
+
+<div class="component story-previews {{ include.classes }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="preview-wrapper">
+          {% if include.find %}
+            {% for story in stories | where: 'tags', include.find %}
+              {% include components/molecules/story-box.html story=story %}
+            {% endfor %}
+          {% else %}
+            {% for story in stories | limit: 9 %}
+              {% include components/molecules/story-box.html story=story %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

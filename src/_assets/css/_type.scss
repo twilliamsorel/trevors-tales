@@ -1,0 +1,49 @@
+h1 {
+  font-weight: 100;
+  margin: 0;
+  font-size: $font-size-400;
+  letter-spacing: 2px;
+}
+h2 { 
+  font-weight: 100;
+  font-size: $font-size-300;
+  margin: 0;
+}
+h3 {
+  font-weight: 200;
+  font-size: $font-size-200;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+    color: $brown-100;
+    transition: color 200ms;
+  }
+}
+
+.subheader {
+  display: inline-block;
+  font-size: $font-size-200;
+  padding: $spacing-200 0;
+  color: $brown-300;
+  font-weight: 100;
+  margin-right: $spacing-base;
+  text-transform: capitalize;
+}
+
+.subheader-2 {
+  @extend .subheader;
+
+  font-size: $font-size-base;
+}
+
+.date {
+  font-size: $font-size-small;
+  color: $black-100;
+  display: block;
+}

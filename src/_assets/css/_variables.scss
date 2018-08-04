@@ -1,0 +1,51 @@
+// colors
+$white-100: #FEFFFC;
+$white-200: #ededed;
+$red-100: #904E55;
+$black-100: #564E58;
+$gray-100: #f7f7f7;
+$gray-200: #525659;
+$brown-100: #CCA387;
+$brown-200: #eddace;
+$brown-300: #9a7963;
+$purple-100: #995D81;
+$black-font: #333;
+
+// spacing
+$spacing-base: 5px;
+$spacing-200: $spacing-base * 2;
+$spacing-300: $spacing-base * 3;
+$spacing-400: $spacing-base * 4;
+$spacing-500: $spacing-base * 5;
+$spacing-600: $spacing-base * 6;
+$spacing-800: $spacing-base * 8;
+$spacing-1000: $spacing-base * 10;
+$spacing-1200: $spacing-base * 12;
+$spacing-1500: $spacing-base * 15;
+
+// bespoke spacing values
+$nav-height: 57px;
+
+// z-indexes
+$z-index-nav: 2;
+$z-index-base: 1;
+
+// fonts
+$font-family-base: sans-serif;
+$font-size-small: 14px;
+$font-size-base: 16px;
+$font-size-100: 18px;
+$font-size-200: 20px;
+$font-size-300: 24px;
+$font-size-400: 30px;
+
+// breakpoints
+$screen-xs: 576px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+// misc styling
+$box-shadow-basic: 0px 0px $spacing-200 $black-font;
+$box-shadow-light: 0px 0px $spacing-base $gray-200;
+$box-shadow-expanded: 0px 0px $spacing-200 $gray-200;

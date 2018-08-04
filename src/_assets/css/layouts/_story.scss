@@ -1,0 +1,37 @@
+.story-container {
+  background: $gray-200;
+  padding: $spacing-base $spacing-800;
+  z-index: $z-index-base;
+
+  @media screen and (max-width: $screen-xs) {
+    padding: $spacing-600 $spacing-400;
+  }
+}
+
+.image-section {
+  max-width: 750px;
+  box-shadow: $box-shadow-basic;
+  margin: $spacing-600 auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+.story-section {
+  position: relative;
+  max-width: 750px;
+  padding: $spacing-1000;
+  background: $gray-100;
+  font-size: $font-size-100;
+  font-weight: 100;
+  margin: $spacing-600 auto;
+  box-shadow: $box-shadow-basic;
+
+  .page {
+    position: absolute;
+    width: 10px;
+    left: calc(50% - 11px);
+    bottom: $spacing-200;
+  }
+}

@@ -1,0 +1,49 @@
+// GENERAL
+@import "variables";
+@import "nav";
+@import "type";
+@import "spacing";
+@import "backgrounds";
+@import "footer";
+
+// LAYOUTS
+@import "layouts/story";
+
+// COMPONENTS
+@import "components/story-nav";
+@import "components/story-previews";
+@import "components/header";
+
+// MOLECULES
+@import "components/molecules/story-box";
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+body {
+  color: $black-font;
+  font-family: $font-family-base;
+  background: $white-100;
+}
+
+main {
+  height: 100vh;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.story-center {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.text-center {
+  text-align: center;
+}
