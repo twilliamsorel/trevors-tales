@@ -5,6 +5,7 @@
 @import "spacing";
 @import "backgrounds";
 @import "footer";
+@import "bookmarks";
 
 // LAYOUTS
 @import "layouts/story";
@@ -37,6 +38,10 @@ main {
 
 .no-margin {
   margin: 0;
+}
+
+.removed {
+  display: none;
 }
 
 .story-center {

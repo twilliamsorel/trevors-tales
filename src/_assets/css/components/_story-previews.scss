@@ -1,5 +1,11 @@
 .component.story-previews {
   .preview-wrapper {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: $screen-xs) {
+      flex-direction: column;
+    }
   } 
 }

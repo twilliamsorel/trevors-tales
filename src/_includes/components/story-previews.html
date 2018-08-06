@@ -11,7 +11,7 @@
               {% include components/molecules/story-box.html story=story %}
             {% endfor %}
           {% else %}
-            {% for story in stories | limit: 9 %}
+            {% for story in stories reversed | limit: 9  %}
               {% include components/molecules/story-box.html story=story %}
             {% endfor %}
           {% endif %}

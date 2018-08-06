@@ -1,0 +1,72 @@
+.bookmarks {
+  position: fixed;
+  z-index: $z-index-nav;
+  bottom: -177px;
+  right: 0;
+  background: $gray-100;
+  border: 2px solid $black-font;
+  box-shadow: $box-shadow-light;
+  width: 300px;
+  transition: bottom 400ms;
+
+  &.expanded {
+    bottom: 0;
+  }
+
+  .bar {
+    width: 100%;
+    padding: $spacing-200;
+    background: $brown-100;
+    color: $white-100;
+    font-weight: 100;
+    border-bottom: 2px solid $black-font;
+    cursor: pointer;
+
+    i.fa-bookmark {
+      margin-right: $spacing-200;
+    }
+
+    i.fa-plus {
+      position: absolute;
+      right: $spacing-200;
+      top: $spacing-300;
+      transition: transform 400ms;
+    }
+  }
+  .content {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 175px;
+  }
+  .bookmark {
+    position: relative;
+    padding: $spacing-base $spacing-200;
+    border-bottom: 1px solid $black-font;
+
+    strong {
+      font-weight: 100;
+      max-width: 150px;
+    }
+
+    span {
+      float: right;
+    }
+
+    .remove {
+      color: $red-100;
+      position: absolute;
+      right: -$spacing-1000;
+      top: 0;
+      padding: $spacing-base $spacing-600 $spacing-base $spacing-200;
+      height: 100%;
+      background: $brown-200;
+      box-shadow: inset 1px 0px 2px $black-font;
+      transition: right 400ms;
+      cursor: pointer;
+    }
+
+    &:hover .remove {
+      right: 0; 
+    }
+  }
+}

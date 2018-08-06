@@ -21,6 +21,16 @@
       left: 0;
     }
 
+    .pages {
+      display: block;
+      position: absolute;
+      width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+
     i {
       margin-left: $spacing-200;
     }
@@ -33,4 +43,9 @@
       padding: $spacing-300 $spacing-400;
     }
   }
+}
+
+.bookmark-button {
+  @extend a;
+  cursor: pointer;
 }

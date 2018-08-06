@@ -30,18 +30,18 @@ function getArrayFrom (query) {
   if (storyNavWrap) {
     window.addEventListener('scroll', triggerStickyNav);
     window.addEventListener('load', triggerStickyNav);
+
+    // reading and outputting (initial) pages
+    var pages = Array.from(document.querySelectorAll('.story-section')).length;
+    document.querySelector('output[data-total-pages]').innerHTML = pages;
+
+    // updating current page on scroll
+    function updatePage () {
+      document.querySelector('output[data-current-page]')
+        .innerHTML = getActiveAnchor(getAnchorPositions(getArrayFrom('.page-anchor')));
+    }
+
+    window.addEventListener('scroll', updatePage);
+    window.addEventListener('load', updatePage);
   }
-
-  // reading and outputting (initial) pages
-  var pages = Array.from(document.querySelectorAll('.story-section')).length;
-  document.querySelector('output[data-total-pages]').innerHTML = pages;
-
-  // updating current page on scroll
-  function updatePage () {
-    document.querySelector('output[data-current-page]')
-      .innerHTML = getActiveAnchor(getAnchorPositions(getArrayFrom('.page-anchor')));
-  }
-
-  window.addEventListener('scroll', updatePage);
-  window.addEventListener('load', updatePage);
 }());
