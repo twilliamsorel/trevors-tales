@@ -25,6 +25,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-assets
+  - jekyll-sitemap
 
 source: src
 destination: _site
