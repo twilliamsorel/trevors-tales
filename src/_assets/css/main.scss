@@ -6,6 +6,7 @@
 @import "backgrounds";
 @import "footer";
 @import "bookmarks";
+@import "form";
 
 // LAYOUTS
 @import "layouts/story";
@@ -51,4 +52,8 @@ main {
 
 .text-center {
   text-align: center;
+}
+
+.full-width {
+  width: 100%;
 }

@@ -34,6 +34,10 @@ a {
   }
 }
 
+p a {
+  color: $brown-300;
+}
+
 .subheader {
   display: inline-block;
   font-size: $font-size-200;
