@@ -29,6 +29,10 @@
       margin-right: auto;
       left: 0;
       right: 0;
+
+      @media screen and (max-width: $screen-xs) {
+        margin-left: 0;
+      }
     }
 
     i {
