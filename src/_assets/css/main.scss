@@ -57,3 +57,8 @@ main {
 .full-width {
   width: 100%;
 }
+
+.page-anchor {
+  margin-top: -$spacing-1500;
+  position: absolute;
+}

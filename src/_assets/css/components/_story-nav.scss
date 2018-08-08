@@ -29,14 +29,17 @@
       margin-right: auto;
       left: 0;
       right: 0;
-
-      @media screen and (max-width: $screen-xs) {
-        margin-left: 0;
-      }
     }
 
-    i {
+    i.fa-bookmark {
       margin-left: $spacing-200;
+    }
+
+    .social-sharing {
+      i {
+        margin-right: $spacing-200;
+        font-size: $font-size-base;
+      }
     }
 
     @media screen and (max-width: $screen-md) {
