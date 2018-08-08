@@ -18,9 +18,12 @@
   @media screen and (max-width: $screen-xs) {
     width: 100%;
   }
+  @media screen and (min-width: $screen-lg) {
+    max-width: 23%;
+  }
 
   &:hover {
-    a {
+    h3 a {
       color: $brown-100;
       transition: color 400ms;
     }

@@ -1,8 +1,8 @@
 <div class="{{ include.classes | default: 'margin-vertical-600' }}">
   <h1>{{ include.header }}</h1>
-  {% if include.subheader %}
-    {% for item in include.subheader %}
-      <span class="subheader">{{ item }}{% if forloop.index < include.subheader.size %}, {% endif %}</span>
+  {% if include.categories %}
+    {% for item in include.categories %}
+      <span class="subheader"><a href="/categories/{{ item | slugify }}">{{ item }}</a>{% if forloop.index < include.categories.size %}, {% endif %}</span>
     {% endfor %}
   {% endif %}
 </div>

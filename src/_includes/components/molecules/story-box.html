@@ -10,7 +10,7 @@
     <div class="content">
       <span class="subheader-2">
         {% for category in story.categories %}
-          {{ category }}{% if forloop.index < story.categories.size %}, {% endif %}
+          <a href="/categories/{{ category | slugify }}">{{ category }}</a>{% if forloop.index < story.categories.size %}, {% endif %}
         {% endfor %}
         <span class="date">Published {{ story.date | date_to_long_string }}</span>
       </span> 

@@ -7,7 +7,9 @@
 
         <div class="preview-wrapper">
           {% if include.find %}
-            {% for story in stories | where: 'tags', include.find %}
+            {% assign stories = stories | where: 'categories', include.find %}
+            
+            {% for story in stories %}
               {% include components/molecules/story-box.html story=story %}
             {% endfor %}
           {% else %}
