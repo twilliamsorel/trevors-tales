@@ -23,7 +23,7 @@ layout: default
   {% endif %}
 
   {% assign words = content | replace: "</p>", "</p><br>" | split: "<br>" %}
-  {% assign num_sections = words | size | divided_by: 8 %}
+  {% assign num_sections = words | size | divided_by: 8.0 | round %}
 
   {% for i in (1..num_sections) %}
     {% assign this_limit = 8 %}
