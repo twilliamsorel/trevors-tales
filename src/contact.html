@@ -11,23 +11,23 @@ title: Contact
       <p>
         If you feel the need, you can contact me using the form below.
       </p>
-      <form>
+      <form action="https://hooks.zapier.com/hooks/catch/3631635/gwt4hc/" data-redirect="/thanks">
         <div class="row">
           <div class="col-md-6">
-            <input type="text" class="full-width margin-top-400" placeholder="Name">
+            <input type="text" name="name" required class="full-width margin-top-400" placeholder="Name">
           </div>
           <div class="col-md-6">
-            <input type="text" class="full-width margin-top-400" placeholder="Email (required for a reply)">
+            <input type="text" name="email" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" class="full-width margin-top-400" placeholder="Email (required for a reply)" data-error="please enter a valid email address">
           </div>
         </div>
         <div class="row margin-top-400">
           <div class="col-md-12">
-            <textarea class="full-width" placeholder="Message"></textarea>
+            <textarea class="full-width" required name="message" placeholder="Message"></textarea>
           </div>
         </div>
         <div class="row margin-top-400">
           <div class="col-md-6 offset-md-3">
-            <input type="submit" class="btn full-width" value="Submit">
+            <input type="submit" name="submit" class="btn full-width" value="Submit">
           </div>
         </div>
       </form>
