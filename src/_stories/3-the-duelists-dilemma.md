@@ -3,7 +3,7 @@ layout: story
 title: The Duelist's Dilemma
 date: 2018-01-27
 image: headers/duelists-dilemma.jpeg
-description: A young man, disillusioned by the bar scene in his native San Francisco, narrates his inner thoughts as he rides out a night on the town.
+description: An 18th century pistol duel takes a turn for the worse when an unexpected accident intertwines the fates of the two duelists.
 categories: 
   - period fiction
   - short story

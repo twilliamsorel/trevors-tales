@@ -3,7 +3,7 @@ layout: story
 title: A Family Feud
 date: 2017-12-30
 image: headers/family-feud.jpeg
-description: A young man, disillusioned by the bar scene in his native San Francisco, narrates his inner thoughts as he rides out a night on the town.
+description: The holidays aren't always sweetness and cheer... Just ask Anita, a young woman struggling to get through a gathering with her inlaws.
 categories: 
   - comedic fiction
   - short story

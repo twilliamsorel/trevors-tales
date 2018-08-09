@@ -3,7 +3,7 @@ layout: story
 title: Old Man Eddie
 date: 2017-11-18
 image: headers/old-man-eddie.jpeg
-description: A young man, disillusioned by the bar scene in his native San Francisco, narrates his inner thoughts as he rides out a night on the town.
+description: During a visit to the doctors office, a cheery old man struggles to come to terms with his mortality.
 categories: 
   - literary
   - snapshot

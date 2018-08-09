@@ -9,7 +9,7 @@
           {% if include.find %}
             {% assign stories = stories | where: 'categories', include.find %}
             
-            {% for story in stories %}
+            {% for story in stories reversed %}
               {% include components/molecules/story-box.html story=story %}
             {% endfor %}
           {% else %}
