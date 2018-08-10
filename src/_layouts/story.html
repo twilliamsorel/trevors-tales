@@ -18,7 +18,7 @@ layout: default
 <div class="story-container">
   {% if page.image %}
   <div class="image-section">
-    {% asset '{{ page.image }}' %}
+    {% asset '{{ page.image }}' alt='{{ page.title }} header image' %}
   </div>
   {% endif %}
 
