@@ -37,7 +37,7 @@ collections:
   categories:
     output: true
     permalink: /categories/:title
-     
+    
 # Asset Manager Configs
 assets: 
   sources:
