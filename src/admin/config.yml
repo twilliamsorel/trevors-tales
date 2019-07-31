@@ -4,7 +4,7 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "public/img" # Media files will be stored in the repo under images/uploads
+media_folder: "src/public/img" # Media files will be stored in the repo under images/uploads
 
 collections:
   - name: "stories" # Used in routes, e.g., /admin/collections/blog
