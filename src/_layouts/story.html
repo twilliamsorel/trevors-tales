@@ -17,9 +17,9 @@ layout: default
 {% include components/story-nav.html title=page.title %}
 <div class="story-container">
   {% if page.image %}
-  <div class="image-section">
-    {% asset '{{ page.image }}' alt='{{ page.title }} header image' %}
-  </div>
+    <div class="image-section">
+      {% asset '{{ page.image }}' alt='{{ page.title }} header image' %}
+    </div>
   {% endif %}
 
   {% assign words = content | replace: "</p>", "</p><br>" | split: "<br>" %}

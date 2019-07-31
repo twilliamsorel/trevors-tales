@@ -2,7 +2,7 @@
 layout: story
 title: Hypotheticals
 date: 2017-11-10
-image: headers/hypotheticals.jpeg
+image: uploads/hypotheticals.jpeg
 description: Two young men debate what it means to lead a good life with a thought experiment.
 categories: 
   - literary

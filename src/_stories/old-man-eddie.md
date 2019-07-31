@@ -2,7 +2,7 @@
 layout: story
 title: Old Man Eddie
 date: 2017-11-18
-image: headers/old-man-eddie.jpeg
+image: uploads/old-man-eddie.jpeg
 description: During a visit to the doctors office, a cheery old man struggles to come to terms with his mortality.
 categories: 
   - literary

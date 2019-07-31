@@ -2,7 +2,7 @@
 layout: story
 title: The Duelist's Dilemma
 date: 2018-01-27
-image: headers/duelists-dilemma.jpeg
+image: uploads/duelists-dilemma.jpeg
 description: An 18th century pistol duel takes a turn for the worse when an unexpected accident intertwines the fates of the two duelists.
 categories: 
   - period fiction

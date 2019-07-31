@@ -2,7 +2,7 @@
 layout: story
 title: A Family Feud
 date: 2017-12-30
-image: headers/family-feud.jpeg
+image: uploads/family-feud.jpeg
 description: The holidays aren't always sweetness and cheer... Just ask Anita, a young woman struggling to get through a gathering with her inlaws.
 categories: 
   - comedic fiction

@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-media_folder: "src/public/img" # Media files will be stored in the repo under images/uploads
+media_folder: "src/_assets/img/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
   - name: "stories" # Used in routes, e.g., /admin/collections/blog
@@ -14,7 +14,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "story"}
       - {label: "Title", name: "title", widget: "string", default: "Enter Title Here"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Featured Image", name: "image", widget: "string" default: "uploads/[image-name]"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Categories", name: "categories", widget: "select", multiple: true, options: ['literary', 'short story', 'comedic fiction']}
       - {label: "Body", name: "body", widget: "markdown"}

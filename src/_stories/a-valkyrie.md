@@ -2,7 +2,7 @@
 layout: story
 title: A Valkyrie
 date: 2017-12-23
-image: headers/a-valkyrie.jpeg
+image: uploads/a-valkyrie.jpeg
 description: A young man parts ways with an older lover after stumbling upon irreconcilable differences.
 categories: 
   - literary
