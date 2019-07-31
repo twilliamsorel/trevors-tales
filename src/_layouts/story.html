@@ -25,16 +25,26 @@ layout: default
   {% assign words = content | replace: "</p>", "</p><br>" | split: "<br>" %}
   {% assign num_sections = words | size | divided_by: 8.0 | round %}
 
-  {% for i in (1..num_sections) %}
-    {% assign this_limit = 8 %}
-    {% assign this_offset = i | minus: 1 | times: 8 %}
-
-    <a id="page-{{ i }}" class="page-anchor"></a>
-    <div class="story-section">
+  {% if num_sections < 1 %}
+    <a id="page-1" class="page-anchor"></a>
+      <div class="story-section">
+          
+        {% for word in words %} {{ word }} {% endfor %}
         
-      {% for word in words | limit: this_limit | offset: this_offset %} {{ word }} {% endfor %}
-      
-      <div class="page">-{{ i }}-</div>
-    </div>
-  {% endfor %}
+        <div class="page">-{{ 1 }}-</div>
+      </div>
+  {% else %}
+    {% for i in (1..num_sections) %}
+      {% assign this_limit = 8 %}
+      {% assign this_offset = i | minus: 1 | times: 8 %}
+
+      <a id="page-{{ i }}" class="page-anchor"></a>
+      <div class="story-section">
+          
+        {% for word in words | limit: this_limit | offset: this_offset %} {{ word }} {% endfor %}
+        
+        <div class="page">-{{ i }}-</div>
+      </div>
+    {% endfor %}
+  {% endif %}
 </div>

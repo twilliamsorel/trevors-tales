@@ -37,8 +37,12 @@ function getArrayFrom (query) {
 
     // updating current page on scroll
     function updatePage () {
-      document.querySelector('output[data-current-page]')
-        .innerHTML = getActiveAnchor(getAnchorPositions(getArrayFrom('.page-anchor')));
+      var activePage = getActiveAnchor(getAnchorPositions(getArrayFrom('.page-anchor')));
+      if (activePage > 0) {
+        document.querySelector('output[data-current-page]').innerHTML = activePage;
+      } else {
+        document.querySelector('output[data-current-page]').innerHTML = 1;
+      }
     }
 
     window.addEventListener('scroll', updatePage);
