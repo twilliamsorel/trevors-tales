@@ -2,3 +2,15 @@
   color: $white-100;
   background: $black-font;
 }
+
+.bg-gray {
+  background: $gray-200;
+}
+
+.bg-white {
+  background: $white-100;
+
+  &.shadow {
+    box-shadow: $box-shadow-basic;
+  }
+}

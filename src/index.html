@@ -1,8 +1,24 @@
 ---
 layout: default
-title: Home
+title: Updates and Announcements
 ---
 
-{% include components/header.html header="Recent Stories" %}
+{% include components/header.html header="Updates and Announcements" %}
 
-{% include components/story-previews.html classes="margin-vertical-1200" %}
+<div class="container">
+  {% for item in site.blog reversed %}
+    <div class="row">
+      <div class="col-md-12 margin-vertical-200">
+        <div class="margin-vertical-400">
+          <h2>{{ item.title }}</h2>
+          <h5>{{ item.date | date: '%B %d, %Y' }}</h5>
+        </div>
+
+        <div class="margin-vertical-400">
+          {{ item.content }}
+        </div>
+      </div>
+    </div>
+    <hr>
+  {% endfor %}
+</div>
