@@ -48,6 +48,7 @@ assets:
     - _assets/img
     - _assets/js
     - _assets/vendor
+    - uploads
     
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
