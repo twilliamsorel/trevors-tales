@@ -7,10 +7,18 @@
   background: $gray-200;
 }
 
+.bg-black {
+  background: $black-100;
+}
+
+.bg-purple {
+  background: $purple-100;
+}
+
 .bg-white {
   background: $white-100;
 
-  &.shadow {
+  &.shadowed {
     box-shadow: $box-shadow-basic;
   }
 }

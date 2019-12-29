@@ -14,10 +14,23 @@
   @extend .margin-top-1200;
   @extend .margin-bottom-1200;
 }
-
 .padding-vertical-200 {
   @extend .padding-top-200;
   @extend .padding-bottom-200;
+}
+.padding-vertical-400 {
+  @extend .padding-top-400;
+  @extend .padding-bottom-400;
+}
+.padding-vertical-600 {
+  @extend .padding-top-600;
+  @extend .padding-bottom-600;
+}
+.padding-200 {
+  @extend .padding-top-200;
+  @extend .padding-bottom-200;
+  @extend .padding-left-200;
+  @extend .padding-right-200;
 }
 
 
@@ -57,9 +70,24 @@
 .padding-top-200 {
   padding-top: $spacing-200;
 }
+.padding-top-400 {
+  padding-top: $spacing-400;
+}
+.padding-top-600 {
+  padding-top: $spacing-600;
+}
 .padding-bottom-200 {
   padding-bottom: $spacing-200;
 }
+.padding-bottom-400 {
+  padding-bottom: $spacing-400;
+}
+.padding-bottom-600 {
+  padding-bottom: $spacing-600;
+}
 .padding-left-200 {
+  padding-left: $spacing-200;
+} 
+.padding-right-200 {
   padding-left: $spacing-200;
 } 

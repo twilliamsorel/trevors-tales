@@ -1,6 +1,6 @@
 {% assign story = include.story %}
 <a href="{{ story.url }}">
-  <div class="preview">
+  <div class="preview {{ include.classes }}">
     <div class="window">
       {% if story.image %} {% asset '{{ story.image }}' alt='{{ story.title }} image' %} {% endif %}
     </div>

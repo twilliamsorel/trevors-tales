@@ -1,0 +1,12 @@
+---
+layout: default
+title: Updates and Announcements
+---
+
+{% include components/header.html header="Updates and Announcements" %}
+
+<div class="container padding-vertical-200">
+  {% for item in site.blog reversed %}
+    {% include components/blog-entry.html item=item %}
+  {% endfor %}
+</div>

@@ -1,0 +1,23 @@
+{% assign stories = site.stories %}
+
+<div class="component story-previews {{ include.classes }}">
+  <div class="row">
+    <div class="col-md-12">
+
+      <div class="preview-wrapper">
+        {% if include.find %}
+          {% assign stories = stories | where: 'categories', include.find %}
+          
+          {% for story in stories reversed %}
+            {% include components/molecules/story-box.html story=story %}
+          {% endfor %}
+        {% else %}
+          {% assign offset_number = stories | size | minus: 4 %}
+          {% for story in stories reversed | offset: offset_number | limit: 4 %}
+            {% include components/molecules/story-box.html story=story classes="home" %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

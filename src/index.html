@@ -3,10 +3,26 @@ layout: default
 title: Updates and Announcements
 ---
 
-{% include components/header.html header="Updates and Announcements" %}
-
-<div class="container padding-vertical-200">
-  {% for item in site.blog reversed %}
-    {% include components/blog-entry.html item=item %}
-  {% endfor %}
+<div class="bg-black padding-vertical-600">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<h1 class="white margin-vertical-400">Latest Updates</h1>
+				<div class="bg-white shadowed">
+				{% for item in site.blog reversed | limit: 1 %}
+				  {% include components/blog-preview.html item=item %}
+				{% endfor %}
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="white margin-vertical-400"><a href="/stories">Recent Stories</a></h1>
+						<a href="/stories" class="right-link white"><span class="text">view all</span> <i class="fas fa-arrow-circle-right"></i></a>
+					</div>
+				</div>
+				{% include components/story-previews-home.html %}
+			</div>
+		</div>
+	</div>
 </div>
