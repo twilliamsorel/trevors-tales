@@ -2,7 +2,10 @@
   background: $gray-100;
   box-shadow: $box-shadow-light;
   border: $spacing-base solid $black-font;
-  margin-bottom: $spacing-600;
+
+  &:nth-child(2) {
+    margin-bottom: $spacing-600;
+  }
 
   h2 {
     padding: $spacing-200 $spacing-400;
@@ -17,14 +20,5 @@
   .content {
     padding: $spacing-200 $spacing-400;
     font-weight: 100;
-  }
-
-  .see-all {
-  	display: block;
-  	font-weight: 200;
-  	text-align: center;
-  	width: 100%;
-  	margin: $spacing-200 0;
-  	font-size: $font-size-100;
   }
 }
