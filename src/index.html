@@ -5,20 +5,8 @@ title: Updates and Announcements
 
 {% include components/header.html header="Updates and Announcements" %}
 
-<div class="container">
+<div class="container padding-vertical-200">
   {% for item in site.blog reversed %}
-    <div class="row">
-      <div class="col-md-12 margin-vertical-200">
-        <div class="margin-vertical-400">
-          <h2>{{ item.title }}</h2>
-          <h5>{{ item.date | date: '%B %d, %Y' }}</h5>
-        </div>
-
-        <div class="margin-vertical-400">
-          {{ item.content }}
-        </div>
-      </div>
-    </div>
-    <hr>
+    {% include components/blog-entry.html item=item %}
   {% endfor %}
 </div>
