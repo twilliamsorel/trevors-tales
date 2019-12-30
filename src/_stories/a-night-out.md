@@ -2,6 +2,7 @@
 layout: story
 title: A Night Out
 date: 2018-01-30
+comments: true
 image: uploads/a-night-out.jpeg
 description: A young man, disillusioned by the bar scene in his native San Francisco, narrates his inner thoughts as he rides out a night on the town.
 categories: 
