@@ -1,7 +1,7 @@
 <div class="component blog-preview {{ include.classes }}">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="inverted padding-vertical-400">{{ item.title }}</h2>
+      <h2 class="inverted padding-vertical-400"><a href="{{ item.url }}">{{ item.title }}</a></h2>
       <div class="content">
         <h5 class="date">{{ item.date | date: '%B %d, %Y' }}</h5>
         {{ item.content }}
