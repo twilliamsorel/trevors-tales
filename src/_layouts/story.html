@@ -23,7 +23,7 @@ layout: default
   {% endif %}
 
   {% assign words = content | replace: "</p>", "</p><br>" | split: "<br>" %}
-  {% assign num_sections = words | size | divided_by: 8.0 | round %}
+  {% assign num_sections = words | size | divided_by: 10.0 | round %}
 
   {% if num_sections < 1 %}
     <a id="page-1" class="page-anchor"></a>
@@ -35,8 +35,8 @@ layout: default
       </div>
   {% else %}
     {% for i in (1..num_sections) %}
-      {% assign this_limit = 8 %}
-      {% assign this_offset = i | minus: 1 | times: 8 %}
+      {% assign this_limit = 10 %}
+      {% assign this_offset = i | minus: 1 | times: 10 %}
 
       <a id="page-{{ i }}" class="page-anchor"></a>
       <div class="story-section">

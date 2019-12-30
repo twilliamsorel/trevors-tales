@@ -1,5 +1,5 @@
 .preview {
-  background: $gray-100;
+  background: $white-200;
   flex: 1 2;
   flex-basis: 23%;
   width: 23%;
@@ -68,7 +68,8 @@
     padding: $spacing-200 $spacing-400;
   }
   .content {
-    padding: $spacing-200 $spacing-400;
+    padding: $spacing-200 $spacing-400 $spacing-300 $spacing-400;
     font-weight: 100;
+    font-size: $font-size-small;
   }
 }
