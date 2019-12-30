@@ -7,6 +7,7 @@ title: Updates and Announcements
 
 <div class="container padding-vertical-200">
   {% for item in site.blog reversed %}
+  	<a id="{{ item.title | slugify }}" class="page-anchor"></a>
     {% include components/blog-entry.html item=item %}
   {% endfor %}
 </div>
