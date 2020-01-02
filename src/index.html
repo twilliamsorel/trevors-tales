@@ -6,16 +6,7 @@ title: Updates and Announcements
 <div class="bg-black padding-vertical-600">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-7">
-				<h1 class="white margin-vertical-400"><a href="/blog">Latest Updates</a></h1>
-				{% assign offset_number = site.blog | size | minus: 2 %}
-				{% for item in site.blog reversed | offset: offset_number | limit: 2 %}
-				  {% include components/blog-preview.html item=item %}
-				{% endfor %}
-				<a class="bottom-link" href="/blog">view all <i class="fas fa-arrow-circle-down"></i></a>
-				
-			</div>
-			<div class="col-md-5">
+			<div class="col-md-5 order-md-2">
 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="white margin-vertical-400"><a href="/stories">Recent Stories</a></h1>
@@ -23,6 +14,15 @@ title: Updates and Announcements
 					</div>
 				</div>
 				{% include components/story-previews-home.html %}
+			</div>
+			<div class="col-md-7 order-md-1">
+				<h1 class="white margin-vertical-400"><a href="/blog">Latest Updates</a></h1>
+				{% assign offset_number = site.blog | size | minus: 2 %}
+				{% for item in site.blog reversed | offset: offset_number | limit: 2 %}
+				  {% include components/blog-preview.html item=item %}
+				{% endfor %}
+				<a class="bottom-link" href="/blog">view all <i class="fas fa-arrow-circle-down"></i></a>
+				
 			</div>
 		</div>
 	</div>
