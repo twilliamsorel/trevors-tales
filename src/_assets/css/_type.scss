@@ -56,7 +56,7 @@ p a {
 .subheader {
   display: inline-block;
   font-size: $font-size-200;
-  padding: $spacing-200 0;
+  padding: $spacing-base 0 0;
   color: $brown-300;
   font-weight: 100;
   margin-right: $spacing-base;
@@ -73,4 +73,5 @@ p a {
   font-size: $font-size-small;
   color: $black-100;
   display: block;
+  margin: $spacing-base 0;
 }

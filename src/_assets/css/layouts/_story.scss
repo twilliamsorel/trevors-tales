@@ -37,4 +37,8 @@
     left: calc(50% - 11px);
     bottom: $spacing-200;
   }
+
+  @media screen and (max-width: $screen-sm) {
+    padding: $spacing-200 $spacing-500 $spacing-500 $spacing-500;
+  }
 }
