@@ -14,11 +14,15 @@
     {% asset bootstrap/css/bootstrap.min.css %}
     {% asset main.scss %}
 
-    {% include ga-tag.html %}
+    {% if jekyll.environment == "production" %}
+        {% include ga-tag.html %}
+    {% endif %}
   </head>
   <body>
     {% include nav.html %}
-
+    {% if jekyll.environment == "production" %}
+         this is a test
+    {% endif %}
     {{ content }}  
 
     {% include bookmarks.html %}
