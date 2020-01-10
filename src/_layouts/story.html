@@ -41,7 +41,7 @@ layout: default
       <a id="page-{{ i }}" class="page-anchor"></a>
       <div class="story-section">
           
-        {% for word in words | limit: this_limit | offset: this_offset %} {{ word }} {% endfor %}
+        {% for word in words limit: this_limit offset: this_offset %} {{ word }} {% endfor %}
         
         <div class="page">-{{ i }}-</div>
       </div>

@@ -18,7 +18,7 @@ title: Updates and Announcements
 			<div class="col-md-7 order-md-1">
 				<h1 class="white margin-vertical-400"><a href="/blog">Latest Updates</a></h1>
 				{% assign offset_number = site.blog | size | minus: 2 %}
-				{% for item in site.blog reversed | offset: offset_number | limit: 2 %}
+				{% for item in site.blog reversed offset: offset_number limit: 2 %}
 				  {% include components/blog-preview.html item=item %}
 				{% endfor %}
 				<a class="bottom-link" href="/blog">view all <i class="fas fa-arrow-circle-down"></i></a>
