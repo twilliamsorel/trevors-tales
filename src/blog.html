@@ -2,8 +2,11 @@
 layout: default
 title: Updates and Announcements
 ---
+{% capture header_content %}
+	Updates and Announcements <a href="/feed/blog.xml" target="_blank" title="Blog RSS Feed"><i class="fas fa-rss"></i></a>
+{% endcapture %}
 
-{% include components/header.html header="Updates and Announcements" %}
+{% include components/header.html header=header_content %}
 
 <div class="container padding-vertical-200">
   {% for item in site.blog reversed %}
