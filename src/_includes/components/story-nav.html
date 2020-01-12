@@ -3,12 +3,12 @@
     <div class="d-none story-title">{{ page.title }}</div>
     <div class="story-center">
       <span class="float-left social-sharing">
-        <a href="/feed/stories.xml" target="_blank" title="RSS Feed"><i class="fas fa-rss"></i></a>
+        <a href="{% if page.url contains 'blog' %}/feed/blog.xml{% else %}/feed/stories.xml{% endif %}" target="_blank" title="RSS Feed"><i class="fas fa-rss"></i></a>
         <span class="d-none d-sm-inline">
           <a href="https://www.facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" target="_blank" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&text={{ 'Check out this story I found' | url_encode }}&hashtags={{ 'trevorstales,fiction,reading,books' | url_encode }}" target="_blank" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&text={{ 'Check this out' | url_encode }}&hashtags={{ 'trevorstales,fiction,reading,books' | url_encode }}" target="_blank" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
         </span>
-        <a href="mailto:?subject=Check out this story I found on Trevors Tales!&amp;body={{ site.url | url_encode }}{{ page.url | url_encode }}" title="Share by Email"><i class="far fa-envelope"></i></a>
+        <a href="mailto:?subject=Check out this article I found on Trevors Tales&amp;body={{ site.url | url_encode }}{{ page.url | url_encode }}" title="Share by Email"><i class="far fa-envelope"></i></a>
         <a href="#disqus-section" title="Comment"><i class="fas fa-comment"></i></a>
       </span>
       <span class="pages"><output data-current-page>1</output>/<output data-total-pages>?</output></span>
