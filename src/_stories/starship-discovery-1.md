@@ -15,14 +15,13 @@ continue-link: /stories/starship-discovery-2
 
 The man in stasis chamber twenty nine sucked air into his empty lungs, eyes wide and darting as his chest began to heave with life once more. His vision was blurry, the muscles in his eyes atrophied from years of disuse, and it took a few moments before he could make sense of shapes and shades of light. He blinked fiercely, and eventually, the world before him came into focus: an empty ship deck cast into shadows, viewed through the distorting lens of his stasis pod.
 
-In another life, he might have known this was the hibernation bay of an enterprise class starship. In another life, he might have seen the broken wires and cracked surfaces, and known that something was terribly wrong. But in this life, he didn’t understand any of this. What he did understand was fear. He didn’t know why the darkness scared him so, but it did&mdash;like some sort of residual primal nightmare made whole&mdash;and he wanted to escape, to leave this terrible cave behind him.
+In another life, he might have known this was the hibernation bay of an enterprise class starship. In another life, he might have seen the broken wires and cracked surfaces, and known that something was terribly wrong. But in this life, he didn’t understand any of this. What he did understand was fear. He didn’t know why the darkness scared him so, but it did&mdash;like some sort of residual primal nightmare made whole&mdash;and he wanted to escape, to leave this terrible cave behind him. 
 
 He reached out to push at the glass that encased him, to resist his confinement, but his arms did not move. Instead they remained at his side, despondent and unwilling to listen to his commands with more than a mocking flinch. In this way, he discovered that he was helpless, a mere mass of sleepy nerves and coagulated blood.
 
 Motionless and bound by atrophy, he was brought into the world as a fly caught in a spider’s web. His eyes darted about like those of a newborn child, watching the shadows that surrounded his chamber, waiting for some other nightmare to claim his naked body. He started to cry, feeling hot tears trickle down his cheeks.
 
-Then, a voice. “Stasis chamber twenty nine. Warning: Neural rehabilitation failure. Occupant life signs detected. Please acknowledge.” It spoke in a metallic monotone.
-
+Then, a voice. “Stasis chamber twenty nine. Warning: Neural rehabilitation failure. Occupant life signs detected. Please acknowledge.” It spoke in a metallic monotone.  
 The man searched for the speaker of the voice, eyes moving wildly, but he found nothing.
 
 “Stasis chamber number twenty nine. Warning: Neural rehabilitation failure. Please acknowledge.”
@@ -33,13 +32,13 @@ The man paused, struck by activity deep in his cerebral cortex, like a candle in
 
 The man flinched as he felt the pinch of hundreds of tiny needles penetrate his flesh. It happened too quickly for him to scream.
 
-“Injecting stimulants,” said the voice.
+“Injecting stimulants,” said the voice. 
 
-The man convulsed violently as the stimulants pumped through his veins, saturating his muscles with adenosine triphosphate and nanobots, which triggered contractions through electrostatic discharge. He twitched in his chamber like an electrocuted insect, grunting in pain as his body came to life. He felt as though his blood had become acid, as though his tendons were searing iron. He would have screamed then, but his jaw was locked. After a timeless moment, the pain stopped, and he lay limp against the wall of his chamber, exhausted.
+Then the man convulsed violently as the stimulants pumped through his veins, saturating his muscles with adenosine triphosphate and nanobots, which triggered contractions through electrostatic discharge. He twitched in his chamber like an electrocuted insect, grunting in pain as his body came to life. He felt as though his blood had become acid, as though his tendons were searing iron. He would have screamed then, but his jaw was locked. After a timeless moment, the pain stopped, and he lay limp against the wall of his chamber, exhausted.
 
 “Revitalization complete,” said the metallic voice. “Please standby. Opening the door.”
 
-There was a loud hissing noise as the chamber depressurized, and the glass case swung open, leaving the man to crumple into a loose pile on the floor of the ship deck. Here, he finally screamed. He screamed a pitiful and confused cry—the helpless cry of a human child. Everything was new. Everything was familiar. Everything was pain.
+There was a loud hissing noise as the chamber depressurized, and the glass case swung open, leaving the man to crumple into a loose pile on the floor of the ship deck. Here, he finally screamed. He screamed a pitiful and confused cry&mdash;the helpless cry of a human child. Everything was new. Everything was familiar. Everything was pain.
 
 Between breaths and racking sobs, he managed to whisper. “Why?” He whispered it over and over again, like a mantra. “Why? Why?” He did not understand.
 
@@ -47,17 +46,17 @@ Then footsteps. They came from down the hall, towards him. Could he run? No, it 
 
 The footsteps resolved next to his body, and he peered up to see two bald men standing over him. Each wore a white linen tunic, and beige cargo pants that tapered at the ankles.
 
-“Look, Thirty Five,” said one of the newcomers as he crouched down next to the man. “It looks as though another of our brothers has woken.” He smiled warmly, and the edges of his pale blue eyes were touched by kindly crows feet.
+“Look, Thirty Five,” said one of the newcomers as he crouched down next to the man. “It looks as though another of our brothers has woken.” He smiled warmly through his white beard, and the edges of his pale blue eyes were touched by kindly crows feet. 
 
 “Indeed, Forty Seven,” said Thirty Five, who remained standing with his arms crossed. He nodded to the large number on the recently opened stasis chamber. “Twenty nine, by the look of it.”
 
-“Ah, Twenty Nine,” said Forty Seven, extending his hand to the man on the ground. “Welcome, brother. We have been expecting you.”
+“Ah, Twenty Nine,” said Forty Seven, extending his hand to the man on the ground. “Welcome, brother. We’ve been expecting you.”
 
-Twenty Nine stared at the hand in confusion, and shook his head. “Who are you?” He spoke in a horse whisper. 
+Twenty Nine stared at the hand in confusion, and shook his head. “Who are you?” he said in a horse whisper. 
 
-“We are your brothers. Forty Seven.” The blue eyed man touched his chest. “And Thirty Five.” He beckoned to the one with his arms crossed. “We have come to retrieve you.”
+“We are your brothers. Forty Seven,” the blue eyed man touched his chest. “And Thirty Five.” He beckoned to the one with his arms crossed. “We’ve come to retrieve you.”
 
-“I am sorry,” said Twenty Nine. “I don’t understand.” He paused, struggling with his words. “I can’t… I can’t remember. I am nothing.”
+“I’m sorry,” said Twenty Nine. “I don’t understand.” He paused, struggling with his words. “I can’t… I can’t remember. I am nothing.”
 
 “To be expected, sadly,” said Forty Seven, puckering his lips.
 
@@ -67,8 +66,8 @@ Thirty Five nodded. “It’s the system malfunction. Hundreds have resurrected,
 
 Thirty Five snorted. “So you say.”
 
-Twenty Nine’s voice box jumped about in his throat as he whimpered. “What is this place?” Fear was written in the whites of his eyes. “What happened to me?” 
-    
+Twenty Nine’s voice box jumped about in his throat as he whimpered. “What is this place?” Fear was written in the whites of his eyes. “What happened to me?”
+
 “Relax, my friend. All is well,” said Forty Seven, placing an arm over the newcomer’s shoulder. “We still have purpose, you shall see.” He offered his hand once more. “All will become clear with time. But now, lets escape this dreary place.”
 
 Twenty Nine hesitated for a moment more, and nodded, accepting the offered hand as it pulled him to his wobbly feet. As soon as he placed his weight on his legs, he stumbled, falling sideways like a felled tree before Forty Seven and Thirty Five caught him.
@@ -81,7 +80,7 @@ Twenty Nine hesitated for a moment more, and nodded, accepting the offered hand 
 
 “It will pass in a few days,” said Forty Seven.
 
-The two bald men led Twenty Nine through a labyrinth of twisting corridors that ran through the ship. They were cast in darkness, only illuminated by the faint glow of life support terminals that adorned the stasis pods lining the walls. 
+The two bald men led Twenty Nine through a labyrinth of twisting corridors that ran through the ship. They were cast in darkness, only illuminated by the faint glow of life support terminals that adorned the stasis pods lining the walls.
 
 “Be mindful of your footing,” said Forty Seven, leading the others over a wide crack in the deck. “The floor is uneven.”
 
@@ -107,7 +106,7 @@ Thirty Five snorted through his nose. “That’s one way of putting it. The shi
 
 “Thirty Five is in the latter camp,” said Forty Seven. “But you need not strain yourself over these details now. You will hear about all of this, in time.”
 
-Down the hall, there was a faint gray radiance beckoning from around a corner with an instinctive promise. The trio moved toward the light.
+Down the hall, there was a faint gray radiance beckoning from around a corner with an instinctive promise. The trio moved toward the light. 
 
 “Almost there, my friend,” said Forty Seven. 
 
@@ -117,7 +116,7 @@ The three turned the corner to be blinded by the midday sunlight, shining throug
 
 “They’re binary,” said Thirty Five. “The stars are locked in orbit at the center of the solar system.”
 
-“That’s right,” said Forty Seven, raising an eyebrow.  “They may take some getting used to. We do not remember who we are or where we came from, but we remember certain things still&mdash;facts, names, words. Many of us remember a time with one sun, and find the sky here disturbing.”
+“That’s right,” said Forty Seven, raising an eyebrow.  “They may take some getting used to. We do not remember who we are or where we came from, but we remember certain things still&mdash;facts, names, words. Many of us remember only one sun, and find the sky here disturbing.”
 
 Thirty Five nodded. “Zero says we lost our episodic memories, but retained our semantic memories. If that means anything to you.”
 
@@ -125,11 +124,12 @@ Twenty Nine shook his head in confusion. “I’m sorry. I’m not sure I unders
 
 “With time, some things will come back,” said Forty Seven, with a sad smile. “But you need not worry, brother. All is well, two suns or one.”
 
-Thirty Five grimaced and snorted through his nose. “You’ll be safe, at least. Though life begets worry.”
+Thirty Five grimaced. “You’ll be safe, at least. Though life begets worry.”
 
-“Come, Thirty Five! Why must you be this way?” Forty Seven waved his hands with exasperation. “He’s only just woken up. Give him some time!”
+“Thirty Five, why must you be this way?” Forty Seven waved his hands with exasperation. “He’s only just woken up. Give him some time!”
 
 Thirty Five crossed his arms once more and looked away. “As you wish.”
 
 Forty Seven turned back to Twenty Nine. “Forgive my friend. He’s something of a philosopher&mdash;just can’t turn off that questioning brain. It has its uses, at least.” He took Twenty Nine by the arm, providing support as he led the newcomer toward the door. “Follow along, now, and I’ll show you the colony.”
+
 

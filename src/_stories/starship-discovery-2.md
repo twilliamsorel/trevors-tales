@@ -27,7 +27,7 @@ Twenty Nine furrowed his brow. “No. I don’t remember.”
 
 “Ignore him,” said Forty Seven, batting his hand. “You’re doing well. Memories are only a burden, anyhow. They rob the present moment of all its pleasures, and leave nothing for surprise.”
 
-“Perhaps that is so,” said Thirty Five, smirking from under his hood. “Perhaps you truly believe it, at least.”
+“Perhaps,” said Thirty Five, smirking from under his hood. “Perhaps you truly believe that, at least.”
 
 Forty Seven’s face darkened as he cast Thirty Five a warning glance. The look lasted only a few moments, but it’s venom cut deep, and Thirty Five fell into silence as he averted his gaze.
 
