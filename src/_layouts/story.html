@@ -47,6 +47,12 @@ layout: default
       </div>
     {% endfor %}
   {% endif %}
+
+  {% if page.continue %}
+    <div class="story-section text-center continue">
+      <a href="{{ page.continue-link }}">Continue reading: {{ page.continue }} <i class="fas fa-arrow-alt-circle-right"></i></a>
+    </div>
+  {% endif %}
   
   <a id="disqus-section" class="page-anchor"></a>
   <div class="story-section">

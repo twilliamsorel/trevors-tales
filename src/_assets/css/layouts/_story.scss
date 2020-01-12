@@ -27,6 +27,10 @@
   margin: $spacing-600 auto;
   box-shadow: $box-shadow-basic;
 
+  &.continue {
+    padding: $spacing-600;
+  }
+
   p {
     margin: $spacing-400 0;
   }
