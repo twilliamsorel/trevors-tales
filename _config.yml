@@ -47,7 +47,7 @@ feed:
     - blog
     
 # Asset Manager Configs
-assets: 
+assets:
   sources:
     - _assets/css
     - _assets/fonts
