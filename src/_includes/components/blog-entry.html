@@ -1,13 +1,22 @@
-<div class="component {{ include.classes }}">
+<div class="component blog-entry {{ include.classes }}">
   <div class="row">
     <div class="col-md-12 margin-vertical-200">
-      <div class="margin-vertical-200">
-        <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
-        <h5>{{ item.date | date: '%B %d, %Y' }}</h5>
-        <p class="margin-top-400">
-        	{{ item.description }}
-        	<a href="{{ item.url }}" class="inline-block">read blog <i class="fas fa-arrow-alt-circle-right"></i></a>
-        </p>
+      <div class="row">
+        <div class="col-md-2">
+          <a href="{{ item.url }}">
+            {% asset '{{ item.image }}' alt='{{ item.title }} header image' %}
+          </a>
+        </div>
+        <div class="col-md-10">
+          <div class="margin-vertical-200">
+            <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+            <h3 class="date">{{ item.date | date: '%B %d, %Y' }}</h3>
+            <p class="margin-top-400">
+            	{{ item.description }}
+            	<a href="{{ item.url }}" class="inline-block">read blog <i class="fas fa-arrow-alt-circle-right"></i></a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
