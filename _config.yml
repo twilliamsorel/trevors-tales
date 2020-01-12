@@ -17,7 +17,7 @@ title: Trevor's Tales
 author: Trevor Sorel
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of writing (mostly fiction) by Trevor Sorel. 
-url: "http://trevorstales.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://trevorstales.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
