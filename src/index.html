@@ -16,7 +16,7 @@ title: Updates and Announcements
 				{% include components/story-previews-home.html %}
 			</div>
 			<div class="col-md-7 order-md-1">
-				<h1 class="white margin-vertical-400"><a href="/blog">Latest Updates</a></h1>
+				<h1 class="white margin-vertical-400"><a href="/blog">From the Blog</a></h1>
 				{% assign offset_number = site.blog | size | minus: 2 %}
 				{% for item in site.blog reversed offset: offset_number limit: 2 %}
 				  {% include components/blog-preview.html item=item %}

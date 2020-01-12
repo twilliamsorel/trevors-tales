@@ -4,5 +4,7 @@
     {% for item in include.categories %}
       <span class="subheader"><a href="/categories/{{ item | slugify }}">{{ item }}</a>{% if forloop.index < include.categories.size %}, {% endif %}</span>
     {% endfor %}
+  {% elsif include.date %}
+  	<span class="subheader">{{ include.date | date: '%B %d, %Y' }}</span>
   {% endif %}
 </div>

@@ -6,9 +6,15 @@ layout: default
   <div class="row">
     <div class="col-md-12">
       <div class="story-center">
-        {% include components/molecules/title.html
-          header=page.title
-          categories=page.categories %}
+        {% if page.url contains 'blog' %}
+          {% include components/molecules/title.html
+            header=page.title
+            date=page.date %}
+        {% else %}
+          {% include components/molecules/title.html
+            header=page.title
+            categories=page.categories %}
+        {% endif %}
       </div>
     </div>
   </div>

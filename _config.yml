@@ -35,7 +35,7 @@ collections:
     output: true
     permalink: /stories/:title
   blog:
-    output: false
+    output: true
     permalink: /blog/:title
   categories:
     output: true
