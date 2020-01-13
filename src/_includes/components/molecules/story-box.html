@@ -1,21 +1,22 @@
 {% assign story = include.story %}
-<a href="{{ story.url }}">
-  <div class="preview {{ include.classes }}">
+
+<div class="preview {{ include.classes }}">
+  <a href="{{ story.url }}">
     <div class="window">
       {% if story.image %} {% asset '{{ story.image }}' alt='{{ story.title }} image' %} {% endif %}
     </div>
-    <h3 class="inverted">
-      <a href="{{ story.url }}">{{ story.title }}</a>
-    </h3>
-    <div class="content">
-      <span class="subheader-2">
-        {% for category in story.categories %}
-          <a href="/categories/{{ category | slugify }}">{{ category }}</a>{% if forloop.index < story.categories.size %}, {% endif %}
-        {% endfor %}
-        <span class="date">Published {{ story.date | date_to_long_string }}</span>
-      </span> 
-      <br>
-      {{ story.description | default: story.content | truncate: 200 }}
-    </div>
+  </a>
+  <h3 class="inverted">
+    <a href="{{ story.url }}">{{ story.title }}</a>
+  </h3>
+  <div class="content">
+    <span class="subheader-2">
+      {% for category in story.categories %}
+        <a href="/categories/{{ category | slugify }}">{{ category }}</a>{% if forloop.index < story.categories.size %}, {% endif %}
+      {% endfor %}
+      <span class="date">Published {{ story.date | date_to_long_string }}</span>
+    </span> 
+    <br>
+    {{ story.description | default: story.content | truncate: 200 }}
   </div>
-</a>
+</div>
