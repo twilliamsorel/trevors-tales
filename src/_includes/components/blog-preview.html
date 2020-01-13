@@ -6,7 +6,7 @@
       <h2 class="inverted padding-vertical-400"><a href="{{ item.url }}">{{ item.title }}</a></h2>
       <div class="content">
         {% if item.image %}
-          <div class="img-header" style="background-image: url({% asset '{{ item.image  }}' @path %})"></div>
+          <a href="{{ item.url }}"><div class="img-header" style="background-image: url({% asset '{{ item.image  }}' @path %})"></div></a>
         {% endif %}
 
         <div class="text">
