@@ -2,6 +2,23 @@
   background: $gray-100;
   box-shadow: $box-shadow-light;
   border: $spacing-base solid $black-font;
+  position: relative;
+
+  &.cutoff {
+    max-height: 750px;
+    overflow: hidden;
+  }
+
+  .img-header {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  img {
+    width: 100%;
+  }
 
   &:nth-child(2) {
     margin-bottom: $spacing-600;
@@ -18,9 +35,31 @@
   }
 
   .content {
+    background: $white-200;  
+  }
+  .text {
     padding: $spacing-200 $spacing-400;
     font-weight: 100;
-    background: $white-200;
     font-size: $font-size-base;
+  }
+
+  .fadeout {
+    background: linear-gradient(to top, white 0%, white 65%, transparent 100%);
+    text-align: center;
+    position: absolute;
+    height: 75px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    a { 
+      position: absolute;
+      bottom: $spacing-300;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      font-weight: 200;
+    }
   }
 }

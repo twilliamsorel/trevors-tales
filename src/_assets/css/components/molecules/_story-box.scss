@@ -22,10 +22,10 @@
   }
 
   &.home {
-    flex-basis: 48%;
-    width: 48%;
+    flex-basis: 49%;
+    width: 49%;
     margin-left: 0;
-    margin-right: 2%;
+    margin-right: 0;
 
     @media screen and (max-width: $screen-md) {
       flex-basis: 100%;
@@ -38,7 +38,7 @@
       flex-basis: 100%;
     }
     @media screen and (min-width: $screen-lg) {
-      max-width: 48%;
+      max-width: 49%;
     }
   }
 

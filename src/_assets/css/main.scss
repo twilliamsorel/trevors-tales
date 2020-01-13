@@ -68,11 +68,26 @@ main {
   display: inline-block;
 }
 
+.header-wrapper {
+  width: 100; 
+  position: relative;
+
+  a {
+    transition: color 400ms;
+  }
+
+  &:hover {
+    a {
+      color: $brown-100;
+    }
+  }
+}
+
 .right-link {
   display: block;
   position: absolute;
-  right: $spacing-500;
-  top: $spacing-600;
+  right:0;
+  top: 8px;
 
   @media screen and (max-width: $screen-md) {
     .text {

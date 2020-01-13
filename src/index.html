@@ -5,26 +5,30 @@ image: uploads/starship-discovery-1.jpg
 ---
 
 <div class="bg-black padding-vertical-600">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-5 order-md-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h1 class="white margin-vertical-400"><a href="/stories">Recent Stories</a></h1>
-						<a href="/stories" class="right-link white"><span class="text">view all</span> <i class="fas fa-arrow-circle-right"></i></a>
-					</div>
-				</div>
-				{% include components/story-previews-home.html %}
-			</div>
-			<div class="col-md-7 order-md-1">
-				<h1 class="white margin-vertical-400"><a href="/blog">From the Blog</a></h1>
-				{% assign offset_number = site.blog | size | minus: 2 %}
-				{% for item in site.blog reversed offset: offset_number limit: 2 %}
-				  {% include components/blog-preview.html item=item %}
-				{% endfor %}
-				<a class="bottom-link" href="/blog">view all <i class="fas fa-arrow-circle-down"></i></a>
-				
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-5 col-lg-5 col-xl-6 order-md-2">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header-wrapper">
+              <h1 class="white margin-vertical-400"><a href="/stories">Recent Stories</a></h1>
+              <a href="/stories" class="right-link white"><span class="text">view all</span> <i class="fas fa-arrow-alt-circle-right"></i></a>
+            </div>
+          </div>
+        </div>
+        {% include components/story-previews-home.html %}
+      </div>
+      <div class="col-12 col-md-7 col-lg-7 col-xl-6 order-md-1">
+        <div class="header-wrapper">
+          <h1 class="white margin-vertical-400"><a href="/blog">From the Blog</a></h1>
+          <a href="/blog" class="right-link white"><span class="text">view all</span> <i class="fas fa-arrow-alt-circle-right"></i></a>
+        </div>
+        {% assign offset_number = site.blog | size | minus: 2 %}
+        {% for item in site.blog reversed offset: offset_number limit: 2 %}
+          {% include components/blog-preview.html item=item %}
+        {% endfor %}
+        
+      </div>
+    </div>
+  </div>
 </div>
