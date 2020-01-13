@@ -48,6 +48,10 @@ feed:
     
 # Asset Manager Configs
 assets:
+  defaults:
+    js: { integrity: false }
+    css: { integrity: false }
+    img: { integrity: false }
   sources:
     - _assets/css
     - _assets/fonts
