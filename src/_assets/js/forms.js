@@ -58,12 +58,23 @@ function postAJAX (url, data, callback) {
       var data = serialize(form);
       var action = form.getAttribute('action');
       var redirect = form.getAttribute('data-redirect');
+      var async = form.getAttribute('data-async-thanks');
+      var container = form.parentElement;
 
-      console.log(data);
+      if (async) {
+        container.innerHTML = "loading...";
+      }
 
-      postAJAX(action, data, function () {
-        if (redirect) 
-          window.location = redirect;
+      postAJAX(action, data, function (res) {
+        if (JSON.parse(res).status === 'success') {
+          if (redirect) 
+            window.location = redirect;
+          else if (async) {
+            container.innerHTML = "<h3>success</h3><br>Thanks for joining the mailing list! Look out for updates and stories in your inbox.";
+          }
+        } else {
+          container.innerHTML = "Something went wrong with the request. Please try again on a stable internet connection."
+        }
       });
 
       form.reset();

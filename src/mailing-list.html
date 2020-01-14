@@ -5,33 +5,4 @@ title: Mailing List
 
 {% include components/header.html header="Join the Mailing List" %}
 
-<div class="container margin-vertical-600">
-  <div class="row">
-    <div class="col-md-6 offset-md-3">
-      <h2 class="margin-vertical-400">Want new stories and updates delivered to your inbox?</h2>
-      <p class="margin-bottom-200">
-        Join my mailing list by entering your information in below!
-      </p>
-      <form action="https://hooks.zapier.com/hooks/catch/3631635/gwcu7z/" data-redirect="/success" class="margin-bottom-600">
-        <div class="row">
-          <div class="col-md-6">
-            <input type="text" name="first_name" required class="full-width margin-top-400" placeholder="First Name">
-          </div>
-          <div class="col-md-6">
-            <input type="text" name="last_name" class="full-width margin-top-400" placeholder="Last Name (optional)">
-          </div>
-        </div>
-        <div class="row margin-top-400">
-          <div class="col-md-12">
-            <input type="text" name="email" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" class="full-width margin-top-400" placeholder="Email" data-error="please enter a valid email address">
-          </div>
-        </div>
-        <div class="row margin-top-400">
-          <div class="col-md-6 offset-md-3">
-            <input type="submit" name="submit" class="btn full-width" value="Submit">
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
+{% include components/cta.html classes="margin-vertical-1200" %}

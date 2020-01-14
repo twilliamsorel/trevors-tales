@@ -1,0 +1,11 @@
+.component.cta {
+  .button {
+    margin-left: $spacing-200;
+    max-width: 250px;
+    
+    @media screen and (max-width: $screen-xs) {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}
