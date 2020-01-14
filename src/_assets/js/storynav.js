@@ -32,12 +32,12 @@ function getArrayFrom (query) {
     window.addEventListener('load', triggerStickyNav);
 
     // reading and outputting (initial) pages
-    var pages = Array.from(document.querySelectorAll('.story-section')).length;
+    var pages = Array.from(document.querySelectorAll('.story-section.page')).length;
     document.querySelector('output[data-total-pages]').innerHTML = pages;
 
     // updating current page on scroll
     function updatePage () {
-      var activePage = getActiveAnchor(getAnchorPositions(getArrayFrom('.page-anchor')));
+      var activePage = getActiveAnchor(getAnchorPositions(getArrayFrom('.page-anchor.indexed')));
       if (activePage > 0) {
         document.querySelector('output[data-current-page]').innerHTML = activePage;
       } else {
