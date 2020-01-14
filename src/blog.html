@@ -8,9 +8,4 @@ title: Updates and Announcements
 
 {% include components/header.html header=header_content %}
 
-<div class="container padding-vertical-200">
-  {% for item in site.blog reversed %}
-  	<a id="{{ item.title | slugify }}" class="page-anchor"></a>
-    {% include components/blog-entry.html item=item %}
-  {% endfor %}
-</div>
+{% include components/blog-list.html classes="margin-vertical-1200" %}
