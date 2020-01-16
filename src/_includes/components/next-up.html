@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h2 class="white margin-bottom-400">More Stories</h2>
+          <h2 class="white margin-bottom-400">{% if page.url contains 'stories' %}More Stories{% else %} More Blog Entries{% endif %}</h2>
         </div>
       </div>
     </div>
