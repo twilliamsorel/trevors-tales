@@ -11,6 +11,7 @@ categories:
   - crash of the starship discovery
 continue: Chapter 2
 continue-link: /stories/starship-discovery-2
+serialized: first
 ---
 
 The man in stasis chamber twenty nine sucked air into his empty lungs, eyes wide and darting as his chest began to heave with life once more. His vision was blurry, the muscles in his eyes atrophied from years of disuse, and it took a few moments before he could make sense of shapes and shades of light. He blinked fiercely, and eventually, the world before him came into focus: an empty ship deck cast into shadows, viewed through the distorting lens of his stasis pod.

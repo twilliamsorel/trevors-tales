@@ -1,0 +1,34 @@
+.component.next-up-previews {
+  .preview-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .preview {
+      margin-left: $spacing-base;
+      margin-right: $spacing-base;
+      width: 32%;
+      flex-basis: 32%;
+      max-width: 32%;
+
+      @media screen and (max-width: $screen-md) {
+        flex-basis: 48%;
+        max-width: 48%;
+        width: 48%;
+
+        &:nth-child(3) {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: $screen-xs-max) {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    @media screen and (max-width: $screen-xs) {
+      flex-direction: column;
+    }
+  }
+}

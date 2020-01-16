@@ -67,6 +67,14 @@ layout: default
     <div class="story-section text-center continue">
       <a href="{{ page.continue-link }}">Continue reading: {{ page.continue }} <i class="fas fa-arrow-alt-circle-right"></i></a>
     </div>
+  {% else %}
+    <div class="next-up-section">
+      {% if page.url contains 'blog' %}
+        {% include components/next-up.html type="blog" %}
+      {% else %}
+        {% include components/next-up.html type="stories" %}
+      {% endif %}
+    </div>
   {% endif %}
   
   <div class="story-section continue">
