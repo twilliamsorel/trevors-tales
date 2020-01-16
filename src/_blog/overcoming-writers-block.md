@@ -9,7 +9,7 @@ image: uploads/writers-block.jpeg
 
 You’ve been staring at your computer screen for half an hour, watching the text cursor blink at the end of your last sentence as your mind goes blank. It feels as though the page is taunting you with that flashing line, daring you to push forward with your narrative. Yet try as you might, nothing comes: every word you write feels ugly; every sentence you compose sits in its paragraph like a poorly carved jigsaw puzzle. Suddenly, that blinking cursor looks like the heartbeat of a dying animal, a simulacrum of your literary ambition. Put more succinctly, you have writer’s block.
 <br><br>
-Fear not, my friend: your condition is not terminal, and nor are you alone. It’s a common problem that all writers are destined to face on their journeys to the mastery of pen and keyboard. Indeed, self doubt (of which writers block is arguable a manifestation) seems the most dogged companion a writer has. Well, I’m here to tell you that this need not be so. You can free yourself from the shackles of writer’s block (and procrastination perhaps?).
+Fear not, my friend: your condition is not terminal, and nor are you alone. It’s a common problem that all writers are destined to face on their journeys toward mastery of pen and keyboard. Indeed, self doubt (of which writers block is arguable a manifestation) seems the most dogged companion a writer has. Well, I’m here to tell you that this need not be so... at least in regard to writer's block. You can indeed free yourself from its shackles (and from procrastination perhaps?).
 <br><br>
 Here’s how I’ve done it... starting with what not to do.
 <br><br>
