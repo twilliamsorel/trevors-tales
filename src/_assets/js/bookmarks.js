@@ -43,8 +43,8 @@ var bookmarkEvent = new CustomEvent("bookmarkEvent");
     var data;
 
     bookmarkButton.addEventListener('click', function () {
-      var currentPage = document.querySelector('[data-current-page]').innerHTML;
-      var totalPages = document.querySelector('[data-total-pages]').innerHTML;
+      var currentPage = document.querySelector('[data-current-page]') ? document.querySelector('[data-current-page]').innerHTML : 1;
+      var totalPages = document.querySelector('[data-total-pages]')? document.querySelector('[data-total-pages]').innerHTML : 1;
       var title = document.querySelector('.story-title').innerHTML;
       var url = window.location.pathname + '#page-' + currentPage;
 

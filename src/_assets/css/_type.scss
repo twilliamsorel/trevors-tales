@@ -14,6 +14,10 @@ h3 {
   font-size: $font-size-200;
   margin: 0;
   letter-spacing: 1px;
+
+  &.blog-header {
+    margin-top: $spacing-800;
+  }
 }
 h4 {
   font-weight: 300;
@@ -22,7 +26,7 @@ h5 {
   font-weight: 100;
   margin: 0;
   letter-spacing: 1px;
-  line-height: 1;
+  line-height: 1.2;
   font-size: $font-size-base;
   display: inline-block;
 }

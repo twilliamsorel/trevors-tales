@@ -28,30 +28,39 @@ layout: default
     </div>
   {% endif %}
 
-  {% assign words = content | replace: "</p>", "</p><br>" | split: "<br>" %}
-  {% assign num_sections = words | size | divided_by: 10.0 | round %}
+  {% if page.url contains 'stories' %}
+      {% assign words = content | replace: "</p>", "</p><br>" | split: "<br>" %}
+      {% assign num_sections = words | size | divided_by: 10.0 | round %}
 
-  {% if num_sections < 1 %}
-    <a id="page-1" class="page-anchor indexed"></a>
+    {% if num_sections < 1 %}
+      <a id="page-1" class="page-anchor indexed"></a>
       <div class="story-section page">
           
         {% for word in words %} {{ word }} {% endfor %}
         
         <div class="page-number">-{{ 1 }}-</div>
       </div>
-  {% else %}
-    {% for i in (1..num_sections) %}
-      {% assign this_limit = 10 %}
-      {% assign this_offset = i | minus: 1 | times: 10 %}
+    {% else %}
+      {% for i in (1..num_sections) %}
+        {% assign this_limit = 10 %}
+        {% assign this_offset = i | minus: 1 | times: 10 %}
 
-      <a id="page-{{ i }}" class="page-anchor indexed"></a>
-      <div class="story-section page">
+        <a id="page-{{ i }}" class="page-anchor indexed"></a>
+        <div class="story-section page">
+            
+          {% for word in words limit: this_limit offset: this_offset %} {{ word }} {% endfor %}
           
-        {% for word in words limit: this_limit offset: this_offset %} {{ word }} {% endfor %}
+          <div class="page-number">-{{ i }}-</div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% else %}
+    <a id="page-1" class="page-anchor indexed"></a>
+    <div class="story-section page">
         
-        <div class="page-number">-{{ i }}-</div>
-      </div>
-    {% endfor %}
+      {{ content }}
+  
+    </div>
   {% endif %}
 
   {% if page.continue %}
