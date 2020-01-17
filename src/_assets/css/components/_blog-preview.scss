@@ -4,6 +4,15 @@
   border: $spacing-base solid $black-font;
   position: relative;
 
+  &:hover {
+    h2 a {
+      color: $brown-100;
+      transition: color 400ms;
+    }
+
+    box-shadow: $box-shadow-expanded;
+  }
+
   &.cutoff {
     max-height: 750px;
     overflow: hidden;
