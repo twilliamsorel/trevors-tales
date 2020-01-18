@@ -1,14 +1,14 @@
 ---
 layout: story
-title: The Crash of the Starship Discovery, Chapter 3
+title: The Crash of the Starship Redemption, Chapter 3
 date: 2020-01-17
 comments: true
-image: uploads/starship-discovery-1.jpeg
+image: uploads/starship-redemption-1.jpeg
 description: Twenty nine follows his mentor through a day in the colony. The more he learns, the more confusing things seem.
 categories: 
   - science fiction
   - serialized
-  - crash of the starship discovery
+  - crash of the starship redemption
 ---
 
 “Put these on,” said Fourteen as she threw Twenty Nine a tunic and cargo pants. The pair stood in her tent, a single room constructed of canvas walls that stretched around rough metal spines.

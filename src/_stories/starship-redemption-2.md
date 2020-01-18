@@ -1,19 +1,19 @@
 ---
 layout: story
-title: The Crash of the Starship Discovery, Chapter 2
+title: The Crash of the Starship Redemption, Chapter 2
 date: 2020-01-10
 comments: true
-image: uploads/starship-discovery-1.jpeg
+image: uploads/starship-redemption-1.jpeg
 description: Twenty Nine meets his mentor, and is introduced to the colony.
 categories: 
   - science fiction
   - serialized
-  - crash of the starship discovery
+  - crash of the starship redemption
 continue: Chapter 3
-continue-link: /stories/starship-discovery-3
+continue-link: /stories/starship-redemption-3
 ---
 
-The Colony of the Morning Star sat at the bottom of a large basin, carved from a deep deposit of sedimentary rock, so that the edges of the colony were ringed by tall cliffs of sandstone. The tall slopes sparkled in the midday suns, refracting the daylight in vibrant orange hues. Along the eastern border of this small valley sat the derelict starship, which rose over the settlement like a fallen titan. The forward hull of the vessel protruded from the desert sand at an angle, exposing the bold letters on the bow, which read: The Discovery. Beneath this leviathan, the structures of the colony appeared as miniatures. They were but a collection of shiny dots, made luminous by their reflective metal roofs.
+The Colony of the Morning Star sat at the bottom of a large basin, carved from a deep deposit of sedimentary rock, so that the edges of the colony were ringed by tall cliffs of sandstone. The tall slopes sparkled in the midday suns, refracting the daylight in vibrant orange hues. Along the eastern border of this small valley sat the derelict starship, which rose over the settlement like a fallen titan. The forward hull of the vessel protruded from the desert sand at an angle, exposing the bold letters on the bow, which read: The Redemption. Beneath this leviathan, the structures of the colony appeared as miniatures. They were but a collection of shiny dots, made luminous by their reflective metal roofs.
 
 Twenty nine followed Forty Seven away from the starship, down a steep slope of golden sand and rust red stone. He chose his footing carefully, a tentative arm gripping at Forty Seven’s shoulder for support as his weak legs probed the ground with each step. Thirty Five took up the rear, arms crossed as he navigated the terrain with ease.
 

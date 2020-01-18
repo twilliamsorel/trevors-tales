@@ -1,16 +1,16 @@
 ---
 layout: story
-title: The Crash of the Starship Discovery, Chapter 1
+title: The Crash of the Starship Redemption, Chapter 1
 date: 2020-01-09
 comments: true
-image: uploads/starship-discovery-1.jpeg
+image: uploads/starship-redemption-1.jpeg
 description: A man wakes from a long slumber in a stasis pod. He is on a crashed starship, and he has forgotten everything.
 categories: 
   - science fiction
   - serialized
-  - crash of the starship discovery
+  - crash of the starship redemption
 continue: Chapter 2
-continue-link: /stories/starship-discovery-2
+continue-link: /stories/starship-redemption-2
 serialized: first
 ---
 
@@ -87,7 +87,7 @@ The two bald men led Twenty Nine through a labyrinth of twisting corridors that 
 
 “Where are we?” said Twenty Nine, raising his head as he slowly regained control of his nerves.
 
-“That is a question that could be answered in many ways,” said Forty Seven. “At this very moment, we are in the hibernation bay of the C class starship, The Discovery.”
+“That is a question that could be answered in many ways,” said Forty Seven. “At this very moment, we are in the hibernation bay of the C class starship, The Redemption.”
 
 “So Zero tells us,” said Thirty Five, grunting as he helped lift Twenty Nine over a large step, formed by heavy warping in the frame of the ship.
 
