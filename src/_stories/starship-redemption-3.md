@@ -137,15 +137,15 @@ Twenty Nine followed Fourteen down one such row of meat plants, mixing the soil 
 
 “Speak for yourself. I'm sweaty, and that dirt you're sprinkling reeks."
 
-"It's lizard dung. Of course it stinks."
+"It's lizard dung." She grew a fistful of the guano on the ground behind her. "Of course it stinks."
 
-"Osiris Six has lizards? Seems unlikely."
+"Lizards here? Seems unlikely."
 
-Fourteen nodded. "They look like lizards, anyway. so that's what we call them."
+Fourteen nodded. "They look like lizards, anyway. So that's what we call them."
 
-"Are they dangerous?" said Twenty Nine, watching the ground by his feat.
+Twenty Nine watched the ground by his feat. "Are they dangerous?"
 
-"Only if you let one bite you," said Fourteen.
+"Only if you let one bite you."
 
 "Great. Poisonous alien lizards, back-breaking labor; what else have you got in store?” 
 
