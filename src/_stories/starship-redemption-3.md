@@ -133,7 +133,7 @@ The meat farm sat on the western edge of the colony, a sprawling field fed by an
 
 Twenty Nine followed Fourteen down one such row of meat plants, mixing the soil with a rake so that it would better absorb the fertilizer she sprinkled over the ground.
 
-“See, for all your complaining, it’s not so bad.” said Fourteen, continuing with her work as she spoke.
+“See, for all your complaining, it’s not so bad,” said Fourteen, continuing with her work as she spoke.
 
 “Speak for yourself. I'm sweaty, and that dirt you're sprinkling reeks."
 
@@ -145,13 +145,13 @@ Fourteen nodded. "They look like lizards, anyway. so that's what we call them."
 
 "Are they dangerous?" said Twenty Nine, watching the ground by his feat.
 
-"Only if you let one bite you." said Fourteen.
+"Only if you let one bite you," said Fourteen.
 
 "Great. Poisonous alien lizards, back-breaking labor; what else have you got in store?” 
 
 Fourteen smiled at her toes. “It’s an agrarian life on Osiris Six.”
 
-“Your sarcasm reeks of honesty.” said Twenty Nine, pausing to wipe sweat from his brow. “A nasty habit. I prefer my sarcasm nice and pure.”
+“Your sarcasm reeks of honesty,” said Twenty Nine, pausing to wipe sweat from his brow. “A nasty habit. I prefer my sarcasm nice and pure.”
 
 “Day one and you already have preferences? I’m impressed. Your personality is coming through quickly.”
 
