@@ -129,7 +129,7 @@ Eighty Nine arched an eyebrow. “Big words for a newborn. But no, you have me w
 
 Eighty Nine waved. “Walk in the light.”
 
-The meat farm sat on the western edge of the colony, a sprawling field fed by an irrigation system of rusty old pipes. The pipes ran across the field from end to end, hovering over the crops like dispassionate metal rain clouds, and dividing them into tight rows. Between these rows were the meat plants, entrenched in the ground with deep roots that were efficient at extracting moisture from the desert soil. The plants looked like fleshy beats, flowering from large green pods that sat close to the earth. 
+The meat farm sat on the western edge of the colony, a sprawling field fed by an irrigation system of rusty old pipes. The pipes ran across the field from end to end, hovering over the crops like dispassionate metal rain clouds, and dividing them into tight rows. Between these rows were the meat plants, entrenched in the ground with deep roots that were efficient at extracting moisture from the desert soil. The plants looked like fleshy beets, flowering from large green pods that sat close to the earth. 
 
 Twenty Nine followed Fourteen down one such row of meat plants, mixing the soil with a rake so that it would better absorb the nitrogen she sprinkled over the ground.
 
