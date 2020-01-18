@@ -131,11 +131,23 @@ Eighty Nine waved. “Walk in the light.”
 
 The meat farm sat on the western edge of the colony, a sprawling field fed by an irrigation system of rusty old pipes. The pipes ran across the field from end to end, hovering over the crops like dispassionate metal rain clouds, and dividing them into tight rows. Between these rows were the meat plants, entrenched in the ground with deep roots that were efficient at extracting moisture from the desert soil. The plants looked like fleshy beets, flowering from large green pods that sat close to the earth. 
 
-Twenty Nine followed Fourteen down one such row of meat plants, mixing the soil with a rake so that it would better absorb the nitrogen she sprinkled over the ground.
+Twenty Nine followed Fourteen down one such row of meat plants, mixing the soil with a rake so that it would better absorb the fertilizer she sprinkled over the ground.
 
 “See, for all your complaining, it’s not so bad.” said Fourteen, continuing with her work as she spoke.
 
-“Yeah, well, we’re two rows in. Check back on row seven.” 
+“Speak for yourself. I'm sweaty, and that dirt you're sprinkling reeks."
+
+"It's lizard dung. Of course it stinks."
+
+"Osiris Six has lizards? Seems unlikely."
+
+Fourteen nodded. "They look like lizards, anyway. so that's what we call them."
+
+"Are they dangerous?" said Twenty Nine, watching the ground by his feat.
+
+"Only if you let one bite you." said Fourteen.
+
+"Great. Poisonous alien lizards, back-breaking labor; what else have you got in store?” 
 
 Fourteen smiled at her toes. “It’s an agrarian life on Osiris Six.”
 
