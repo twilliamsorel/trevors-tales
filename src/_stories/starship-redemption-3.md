@@ -143,7 +143,7 @@ Twenty Nine followed Fourteen down one such row of meat plants, mixing the soil 
 
 Fourteen nodded. "They look like lizards, anyway. So that's what we call them."
 
-Twenty Nine watched the ground by his feat. "Are they dangerous?"
+Twenty Nine watched the ground by his feet. "Are they dangerous?"
 
 "Only if you let one bite you."
 
