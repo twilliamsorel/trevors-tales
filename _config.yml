@@ -30,7 +30,7 @@ plugins:
 source: src
 destination: _site
 
-include: ['_redirects']
+include: ['src/_redirects']
 
 collections:
   stories:
