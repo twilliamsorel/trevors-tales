@@ -30,6 +30,8 @@ plugins:
 source: src
 destination: _site
 
+include: _redirects.txt
+
 collections:
   stories:
     output: true
