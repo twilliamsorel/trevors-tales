@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Trevor's Tales
-author: Trevor Müller
+author: Trevor Michaelson
 description: >- # this means to ignore newlines until "baseurl:"
-  A collection of writing (mostly fiction) by Trevor Sorel. 
+  A collection of writing (mostly fiction) by Trevor Michaelson. 
 url: "https://trevorstales.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
