@@ -125,6 +125,17 @@ main {
   }
 }
 
+.twitter-button {
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 28px;
+
+  @media screen and (max-width: $screen-md) {
+    
+  }
+}
+
 .bottom-link {
   color: $white-100;
   display: block;
