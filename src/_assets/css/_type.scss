@@ -52,6 +52,13 @@ p a {
   font-weight: 400;
 }
 
+quote {
+  border-left: 4px solid $gray-200;
+  display: inline-block;
+  padding: $spacing-200 $spacing-400;
+  font-style: italic;
+}
+
 .white {
   color: $white-100;
 }

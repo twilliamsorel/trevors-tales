@@ -20,7 +20,7 @@ There are plenty of reasons anyone should read, let alone writers: it helps prev
 
 So, good writers read, and if you’re trying to improve, that’s where you should start. I know that in my quest to be a better writer, increasing my consumption of books has been the greatest proscription. But don’t take my word for it. In the words of the prolific <strong>Stephen King</strong>: 
 <quote>“If you don't have time to read, you don't have the time (or the tools) to write. Simple as that.”</quote>
-Well put, Mr. King. 
+Well put, Mr. King... And now for the shameless plug: if you're in the mood for some new reading material, perhaps you'll <a href="/stories">check out some of mine here</a>. If not, that's perfectly fine, I understand; I'm wary of the internet too. In that case, go get yourself a proper book from a proper bookstore, while they're still around.
 
 Until next Wednesday,<br>
 Trevor
