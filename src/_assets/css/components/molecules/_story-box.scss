@@ -42,6 +42,36 @@
     }
   }
 
+  &.feature {
+    flex-basis: 24%;
+    width: 24%;
+    margin-left: 0;
+    margin-right: 1%;
+    background-color: $black-font;
+
+    @media screen and (max-width: $screen-sm) {
+      width: 49%;
+      max-width: 49%;
+      flex-basis: 49%;
+    }
+    @media screen and (min-width: $screen-lg) {
+      max-width: 24%;
+    }
+    @media screen and (max-width: $screen-xs) {
+      width: 100%;
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .window {
+      height: 150px;
+    }
+
+    .content {
+      display: none;
+    }
+  }
+
   &:hover {
     h3 a {
       color: $brown-100;
@@ -67,6 +97,7 @@
   h3 {
     padding: $spacing-200 $spacing-400;
   }
+
   .content {
     padding: $spacing-200 $spacing-400 $spacing-300 $spacing-400;
     font-weight: 100;

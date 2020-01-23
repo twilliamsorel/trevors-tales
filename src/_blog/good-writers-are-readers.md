@@ -4,6 +4,7 @@ title: Good Writers are Good Readers
 date: 2020-01-22
 description: Looking to improve your writing skills? Here's a surefire way to help you along in your quest.
 image: uploads/good-writers-read.jpeg
+featured: true
 
 ---
 

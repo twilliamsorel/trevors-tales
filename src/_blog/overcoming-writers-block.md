@@ -4,6 +4,7 @@ title: Overcoming Writer's Block (4 Strategies that Work)
 date: 2020-01-15
 description: Can't get the words out? Here's how to overcome writer's block using proven psychological strategies.
 image: uploads/writers-block.jpeg
+featured: true
 
 ---
 

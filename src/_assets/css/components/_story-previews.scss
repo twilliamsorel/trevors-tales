@@ -14,4 +14,26 @@
       justify-content: space-between;     
     }
   }
+
+  &.feature {
+    .preview {
+      display: none
+    }
+    .preview:first-child {
+      display: block;
+    }
+    @media screen and (min-width: $screen-xs) {
+      .preview {
+        display: none
+      }
+      .preview:first-child, .preview:nth-child(2) {
+        display: block;
+      }
+    }
+    @media screen and (min-width: $screen-sm) {
+      .preview {
+        display: block;
+      }
+    }
+  }
 }

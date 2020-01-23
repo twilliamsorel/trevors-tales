@@ -7,7 +7,9 @@
     </div>
   </a>
   <h3 class="inverted">
-    <a href="{{ story.url }}">{{ story.title }}</a>
+    <a href="{{ story.url }}">{{ story.title }}</a> {% if include.type %}
+    <br>
+    <a href="{% if include.type == 'blog post' %}/blog{% else %}/stories{% endif %}"><span class="subheader-2">{{ include.type }}</span></a> {% endif %}
   </h3>
   <div class="content">
     <span class="subheader-2">
