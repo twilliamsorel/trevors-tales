@@ -31,6 +31,11 @@
       }
     }
     @media screen and (min-width: $screen-sm) {
+      .preview:first-child, .preview:nth-child(2), .preview:nth-child(3) {
+        display: block;
+      }
+    }
+    @media screen and (min-width: $screen-md) {
       .preview {
         display: block;
       }
