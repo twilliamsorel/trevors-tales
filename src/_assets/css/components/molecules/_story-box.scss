@@ -43,25 +43,25 @@
   }
 
   &.feature {
-    flex-basis: 24%;
-    width: 24%;
+    flex-basis: 100%;
+    width: 100%;
     margin-left: 0;
-    margin-right: 1%;
+    margin-right: 0;
     background-color: $black-font;
 
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (min-width: $screen-xs) {
       width: 49%;
-      max-width: 49%;
       flex-basis: 49%;
+      max-width: 49%;
     }
-    @media screen and (min-width: $screen-lg) {
+    @media screen and (min-width: $screen-sm) {
+      width: 32%;
+      max-width: 32%;
+      flex-basis: 32%;
+    }
+    @media screen and (min-width: $screen-md) {
       max-width: 24%;
-    }
-    @media screen and (max-width: $screen-xs) {
-      width: 100%;
-      flex-basis: 100%;
-      max-width: 100%;
-    }
+    }    
 
     .window {
       height: 150px;
