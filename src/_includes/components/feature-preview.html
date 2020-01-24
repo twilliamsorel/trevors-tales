@@ -5,11 +5,11 @@
     <div class="col-md-12">
 
       <div class="preview-wrapper">
-        {% assign featured_stories = site.stories | where: 'featured', 'true' %}
+        {% assign featured_stories = site.stories | where: 'featured', 'true' | reverse %}
           {% for story in featured_stories %}      
             {% include components/molecules/story-box.html story=story classes="feature" type="story" %}
         {% endfor %}
-        {% assign featured_blogs = site.blog | where: 'featured', 'true' %}
+        {% assign featured_blogs = site.blog | where: 'featured', 'true' | reverse %}
         {% for blog in featured_blogs %}      
           {% include components/molecules/story-box.html story=blog classes="feature" type="blog post" %}
         {% endfor %}

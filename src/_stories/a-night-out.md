@@ -8,6 +8,7 @@ description: A young man, disillusioned by the bar scene in his native San Franc
 categories: 
   - literary
   - short story
+featured: true
 ---
 
 “So, this is my strategy for finding romance, huh?” I say to myself, sipping at my vodka soda.
