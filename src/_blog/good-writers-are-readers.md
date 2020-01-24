@@ -20,7 +20,7 @@ There are plenty of reasons anyone should read, let alone writers: it helps prev
 <strong>If you’re trying to improve as a writer, consider how much you are reading</strong>. If it’s less than an hour a day, you may want to consider upping your dose. Reading alone, especially long-form fiction, is the single most powerful thing you can do for your writing. If you read less than thirty minutes a day, well… being a writer who doesn’t read frequently is like being a pastry chef who never eats pastries. You haven’t developed a pallet for good food. How do you even know your pastries are decent? Do you even know what they taste like to your customers? You probably don’t, frankly.
 
 So, good writers read, and if you’re trying to improve, that’s where you should start. I know that in my quest to be a better writer, increasing my consumption of books has been the greatest proscription. But don’t take my word for it. In the words of the prolific <strong>Stephen King</strong>: 
-<quote>“If you don't have time to read, you don't have the time (or the tools) to write. Simple as that.”</quote>
+<blockquote>“If you don't have time to read, you don't have the time (or the tools) to write. Simple as that.”</blockquote>
 Well put, Mr. King... And now for the shameless plug: if you're in the mood for some new reading material, perhaps you'll <a href="/stories">check out some of mine here</a>. If not, that's perfectly fine, I understand; I'm wary of the internet too. In that case, go get yourself a proper book from a proper bookstore, while they're still around.
 
 Until next Wednesday,<br>
