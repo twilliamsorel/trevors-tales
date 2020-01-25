@@ -9,6 +9,8 @@ categories:
   - science fiction
   - serialized
   - crash of the starship redemption
+continue: Chapter 4
+continue-link: /stories/starship-redemption-4
 ---
 
 “Put these on,” said Fourteen as she threw Twenty Nine a tunic and cargo pants. The pair stood in her tent, a single room constructed of canvas walls that stretched around rough metal spines.
