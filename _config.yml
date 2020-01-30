@@ -16,7 +16,7 @@
 title: Trevor's Tales
 author: Trevor Michaelson
 description: >- # this means to ignore newlines until "baseurl:"
-  A collection of writing (mostly fiction) by Trevor Michaelson. 
+  A collection of writing by Trevor Michaelson. 
 url: "https://trevorstales.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
