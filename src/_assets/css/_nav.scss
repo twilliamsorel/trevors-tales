@@ -1,5 +1,9 @@
 .nav-container {
   height: $nav-height;
+
+  &.plus-categories {
+    height: $nav-height-plus-categories
+  }
 }
 
 nav.main {
