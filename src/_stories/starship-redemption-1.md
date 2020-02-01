@@ -9,6 +9,7 @@ categories:
   - science fiction
   - serialized
   - crash of the starship redemption
+first-entry: /stories/starship-redemption-1
 continue: Chapter 2
 continue-link: /stories/starship-redemption-2
 serialized: first

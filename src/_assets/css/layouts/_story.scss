@@ -46,6 +46,17 @@
     bottom: $spacing-200;
   }
 
+  .close-alert {
+    cursor: pointer;
+    position: absolute;
+    right: $spacing-base;
+    top: $spacing-base;
+    display: inline-block;
+    height: $spacing-400;
+    width: $spacing-400;
+    text-align: center;
+  }
+
   @media screen and (max-width: $screen-sm) {
     padding: $spacing-200 $spacing-500 $spacing-500 $spacing-500;
   }

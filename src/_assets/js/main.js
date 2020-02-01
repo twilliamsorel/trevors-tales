@@ -3,6 +3,7 @@
 //= require ./bookmarks.js
 //= require ./mobilenav.js
 //= require ./forms.js
+//= require ./suggestion-tracker.js
 
 if (window.netlifyIdentity) {
 	window.netlifyIdentity.on("init", function (user) {

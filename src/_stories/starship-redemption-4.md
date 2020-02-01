@@ -9,6 +9,9 @@ categories:
   - science fiction
   - serialized
   - crash of the starship redemption
+first-entry: /stories/starship-redemption-1
+continue: Chapter 5
+continue-link: /stories/starship-redemption-5
 ---
 
 The work in the fields took hours, and by the time Twenty Nine and Fourteen had finished, they were drenched in sweat, and the suns were hovering low over the horizon. The discomfort from their earlier conversation had worn away with labor, and as the pair headed back toward the settlement, they were easy in each other's company once more.

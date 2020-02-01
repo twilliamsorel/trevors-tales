@@ -71,6 +71,11 @@ main {
   display: inline-block;
 }
 
+.default-link { 
+  color: $brown-300;
+  font-weight: 400;
+}
+
 .header-wrapper {
   width: 100; 
   position: relative;
