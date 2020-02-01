@@ -1,7 +1,7 @@
 ---
 layout: story
 title: The Crash of the Starship Redemption, Chapter 5
-date: 2020-01-24
+date: 2020-01-31
 comments: true
 image: uploads/starship-redemption-1.jpeg
 description: Twenty Nine is startled when he stumbles upon a disturbing ritual. 
