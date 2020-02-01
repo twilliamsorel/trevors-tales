@@ -68,7 +68,7 @@ Twenty Nine shrugged. “Don’t know what I saw. I only stayed for a few moment
 
 “I was overwhelmed, I guess.”
 
-“An interest reaction, for a newborn.” said Thirty Five. “To run, and to reflect.”
+“An interesting reaction, for a newborn.” said Thirty Five. “To run, and to reflect.”
 
 “Maybe reflecting is in my nature,” said Twenty Nine.
 
