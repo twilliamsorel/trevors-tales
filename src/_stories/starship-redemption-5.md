@@ -1,7 +1,7 @@
 ---
 layout: story
 title: The Crash of the Starship Redemption, Chapter 5
-date: 2020-01-24
+date: 2020-01-31
 comments: true
 image: uploads/starship-redemption-1.jpeg
 description: Twenty Nine is startled when he stumbles upon a disturbing ritual. 
@@ -68,7 +68,7 @@ Twenty Nine shrugged. “Don’t know what I saw. I only stayed for a few moment
 
 “I was overwhelmed, I guess.”
 
-“An interest reaction, for a newborn.” said Thirty Five. “To run, and to reflect.”
+“An interesting reaction, for a newborn.” said Thirty Five. “To run, and to reflect.”
 
 “Maybe reflecting is in my nature,” said Twenty Nine.
 
