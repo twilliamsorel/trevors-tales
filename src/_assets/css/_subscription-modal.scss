@@ -8,6 +8,8 @@
 	padding: $spacing-500;
 	text-align: center;
 	box-shadow: $box-shadow-basic;
+	opacity: 0;
+	transition: opacity 1000ms;
 
 	.close-alert {
 		position: absolute;
