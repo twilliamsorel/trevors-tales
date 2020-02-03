@@ -1,5 +1,16 @@
 .nav-container {
   height: $nav-height;
+
+  &.plus-categories {
+    height: $nav-height-plus-categories
+  }
+}
+
+.fixed-wrapper {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px $spacing-base $black-font;
+  z-index: $z-index-nav;
 }
 
 nav.main {
@@ -7,10 +18,8 @@ nav.main {
   color: $white-100;
   padding: $spacing-200 0;
   font-family: "fira-sans-2", sans-serif;
-  position: fixed;
   top: 0;
   width: 100%;
-  z-index: $z-index-nav;
 
   span {
     font-size: $spacing-500;
@@ -38,11 +47,11 @@ nav.main {
   // MOBILE NAV
   ul.mobile {
     list-style: none;
+    position: fixed;
     opacity: 0;
     padding: $spacing-800 0;
     font-size: $font-size-400;
     line-height: 60px;
-    position: fixed;
     width: 100%;
     height: 100%;
     top: $nav-height;
@@ -50,6 +59,7 @@ nav.main {
     background: $transparent-black;
     text-align: center;
     transition: opacity 400ms;
+    z-index: $z-index-mobile-nav;
 
     .fa-times {
       cursor: pointer;

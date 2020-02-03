@@ -1,30 +1,45 @@
-<div class="nav-container">
-  <nav class="main">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <span><a href="/">Trevor's Tales</a></span>
+<div class="nav-container {% if page.title == 'Stories' %} plus-categories {% endif %}">
+  <div class="fixed-wrapper">
+    <nav class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <span><a href="/">Trevor's Tales</a></span>
 
-          <ul class="no-margin d-none d-md-block fullscreen padding-top-100">
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/stories">Stories</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/mailing-list">Mailing List</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
+            <ul class="no-margin d-none d-md-block fullscreen padding-top-100">
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/stories">Stories</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/mailing-list">Mailing List</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
 
-          <i class="fas fa-bars d-block d-md-none" data-mobile-button></i>
+            <i class="fas fa-bars d-block d-md-none" data-mobile-button></i>
 
-          <ul class="no-margin mobile d-none" data-mobile-menu>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/stories">Stories</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/mailing-list">Mailing List</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><i class="fas fa-times" data-close-mobile></i></li>
-          </ul>
+            <ul class="no-margin mobile d-none" data-mobile-menu>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/stories">Stories</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/mailing-list">Mailing List</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><i class="fas fa-times" data-close-mobile></i></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+    {% if page.title == 'Stories' %}
+      <nav class="component category-nav {{ include.classes }}">
+        <div class=container>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="#sci-fi" class="active" data-category-button>science fiction</a>
+              <a href="#literary" data-category-button>literary</a>
+              <a href="#other" data-category-button>other</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    {% endif %}
+  </div>
 </div>

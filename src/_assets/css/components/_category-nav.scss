@@ -1,0 +1,19 @@
+.component.category-nav {
+  text-align: center;
+  width: 100%;
+  padding: $spacing-200;
+  background: $black-font;
+
+  a {
+    font-weight: 200;
+    color: white;
+    margin: 0 $spacing-200;
+    padding: $spacing-base $spacing-200 8px $spacing-200;
+    border-bottom: 4px solid transparent;
+    transition: color 400ms, border 400ms;
+
+    &.active {
+      border-bottom: 4px solid $brown-100;
+    }
+  }
+}
