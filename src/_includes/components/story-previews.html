@@ -10,7 +10,9 @@
             {% if include.find == 'other' %}
               {% for story in stories reversed %}
                 {% unless story.categories contains 'science fiction' %}
-                  {% include components/molecules/story-box.html story=story %}
+                  {% unless story.categories contains 'literary' %}
+                    {% include components/molecules/story-box.html story=story %}
+                  {% endunless %}
                 {% endunless %}
               {% endfor %}
             {% else %}

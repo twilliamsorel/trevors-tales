@@ -4,6 +4,7 @@
 //= require ./mobilenav.js
 //= require ./forms.js
 //= require ./suggestion-tracker.js
+//= require ./cat-nav.js
 
 if (window.netlifyIdentity) {
 	window.netlifyIdentity.on("init", function (user) {

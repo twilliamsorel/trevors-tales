@@ -1,26 +1,19 @@
 .component.category-nav {
-	position: fixed;
 	text-align: center;
 	width: 100%;
 	padding: $spacing-200;
-	background: white;
-	z-index: $z-index-nav;
-	margin-top: $nav-height;
+	background: $black-font;
 
 	a {
 		font-weight: 200;
+		color: white;
 		margin: 0 $spacing-200;
-		padding: $spacing-base $spacing-200;
-		
+		padding: $spacing-base $spacing-200 8px $spacing-200;
+		border-bottom: 4px solid transparent;
+		transition: color 400ms, border 400ms;
 
 		&.active {
-			border: 1px solid $black-font;
-			border-radius: 15px;
-			transition: border 400ms color 400ms;
-
-			&:hover {
-				border: 1px solid $brown-300;
-			}
+			border-bottom: 4px solid $brown-100;
 		}
 	}
 }
