@@ -25,7 +25,7 @@ layout: default
   {% if page.first-entry %}
     <div class="story-section continue d-none" data-suggestion-tracker="{{ page.first-entry }}">
       <span>
-       <i class="fas fa-exclamation-triangle margin-right-200"></i> First time reading this series? If so, check out <a class="default-link" href="{{ page.first-entry }}">the first entry</a> to get started. <span class="close-alert" title="dismiss"><i class="fas fa-times" data-close-suggestion></i></span>
+       <i class="fas fa-exclamation-triangle margin-right-200"></i> First time reading this series? If so, check out <a class="default-link" href="{{ page.first-entry }}">the first entry</a> to get started. <span class="close-alert" title="dismiss" data-close-suggestion><i class="fas fa-times"></i></span>
       </span>
     </div>
   {% endif %}
