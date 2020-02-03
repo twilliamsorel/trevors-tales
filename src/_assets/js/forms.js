@@ -71,9 +71,15 @@ function postAJAX (url, data, callback) {
             window.location = redirect;
           else if (async) {
             container.innerHTML = "<h3>success</h3><br>Thanks for joining the mailing list! Look out for updates and stories in your inbox.";
+            localStorage.hideSubscribe = true;
           }
         } else {
           container.innerHTML = "Something went wrong with the request. Please try again on a stable internet connection."
+        }
+        if (container.classList.contains('subscription-modal')) {
+          setTimeout(function () {
+            container.classList.add('removed');
+          }, 3000);
         }
       });
 

@@ -1,0 +1,28 @@
+.subscription-modal {
+	position: fixed;
+	bottom: 0;
+	left: $spacing-200;
+	background: white;
+	width: 100%;
+	max-width: 300px;
+	padding: $spacing-500;
+	text-align: center;
+	box-shadow: $box-shadow-basic;
+	opacity: 0;
+	transition: opacity 1000ms;
+
+	.close-alert {
+		position: absolute;
+		right: $spacing-200;
+		top: $spacing-base;
+		cursor: pointer;
+	}
+
+	input {
+		width: 100%;
+
+		&[type="email"] {
+			max-width: 100%;
+		}
+	}
+}
