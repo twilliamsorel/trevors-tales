@@ -1,23 +1,23 @@
 (function () {
-	var suggestionBox = document.querySelector('[data-suggestion-tracker]');
+  var suggestionBox = document.querySelector('[data-suggestion-tracker]');
 
-	if (suggestionBox) {
-		var trackedItem = suggestionBox.getAttribute('data-suggestion-tracker');
-		var close = suggestionBox.querySelector('[data-close-suggestion]');
+  if (suggestionBox) {
+    var trackedItem = suggestionBox.getAttribute('data-suggestion-tracker');
+    var close = suggestionBox.querySelector('[data-close-suggestion]');
 
-		console.log(close);
+    console.log(close);
 
-		if (trackedItem === window.location.pathname) {
-			localStorage[trackedItem] = true;
-		}
+    if (trackedItem === window.location.pathname) {
+      localStorage[trackedItem] = true;
+    }
 
-		if (!localStorage[trackedItem]) {
-			suggestionBox.classList.remove('d-none');
-		}
+    if (!localStorage[trackedItem]) {
+      suggestionBox.classList.remove('d-none');
+    }
 
-		close.addEventListener('click', function () {
-			localStorage[trackedItem] = true;
-			suggestionBox.classList.add('d-none');
-		});
-	}
+    close.addEventListener('click', function () {
+      localStorage[trackedItem] = true;
+      suggestionBox.classList.add('d-none');
+    });
+  }
 }());
