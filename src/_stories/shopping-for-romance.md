@@ -122,4 +122,4 @@ I don’t linger, and as soon as her back faces me I turn the other way, heading
 
 I gather a wad of spittle on my tongue and eject it onto the pavement of the sidewalk, but I can still taste the makeup. It’s artificial tang is like a smelling salt for my sentimentality, and the brittle filter that plasters my vision starts to crumble. The world changes colors; now I feel as free as a candy wrapper fluttering in an urban gust, feel as dirty as a metropolitan gutter flowing with discarded booze. My heart races and my armpits perspire in a nervous drip.
 
-“What am I thinking?” I say to myself, shaking my head. I better keep this ego in check, or it’ll tempt me to ruin.
+“What am I thinking?” I say to myself, shaking my head. "What am I thinking?"
