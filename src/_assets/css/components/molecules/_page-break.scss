@@ -1,0 +1,15 @@
+.page-break {
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	width: 90px;
+
+	.dot {
+		width: 6px;
+		height: 6px;
+		background: $black-font;
+		border-radius: 25px;
+		display: inline-block;
+		margin: 0 10px;
+	}
+}
