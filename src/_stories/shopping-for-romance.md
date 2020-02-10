@@ -8,6 +8,7 @@ description: A man grapples with the negative aspects of dating culture that con
 categories: 
   - literary
   - short story
+featured: true
 ---
 
 “So William, I just like to jump right into it when I’m on one of these things, how about you?” Tessa’s face is an orchestra of controlled nerves: her smile a little too tight in the corners, eyes trained on me with unnatural intensity. She hasn’t even touched her moscow mule yet, which sits off to the left of her clasped hands. This already feels like a job interview. 
