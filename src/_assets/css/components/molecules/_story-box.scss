@@ -1,8 +1,8 @@
 .preview {
   background: $white-200;
   flex: 1 2;
-  flex-basis: 23%;
-  width: 23%;
+  flex-basis: 100%;
+  width: 100%;
   flex-wrap: wrap;
   box-shadow: $box-shadow-light;
   border: $spacing-base solid $black-font;
@@ -10,34 +10,26 @@
   margin-bottom: $spacing-600;
   margin-left: 1%;
   margin-right: 1%;
-  max-width: 23%;
+  max-width: 100%;
 
-  @media screen and (max-width: $screen-md) {
+  @media screen and (min-width: $screen-xs) {
     flex-basis: 48%;
     max-width: 48%;
   }
-  @media screen and (max-width: $screen-xs) {
-    width: 100%;
-    max-width: 100%;
+  @media screen and (min-width: $screen-md) {
+    max-width: 23%;
+    flex-basis: 23%;
   }
 
   &.home {
-    flex-basis: 49%;
-    width: 49%;
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 100%;
     margin-left: 0;
     margin-right: 0;
 
-    @media screen and (max-width: $screen-md) {
-      flex-basis: 100%;
-    }
-    @media screen and (max-width: $screen-xs) {
-      width: 100%;
-    }
-    @media screen and (max-width: $screen-lg-max) {
-      max-width: 100%;
-      flex-basis: 100%;
-    }
-    @media screen and (min-width: $screen-lg) {
+    @media screen and (min-width: $screen-md) {
+      flex-basis: 49%;
       max-width: 49%;
     }
   }

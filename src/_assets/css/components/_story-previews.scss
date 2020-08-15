@@ -17,7 +17,7 @@
         display: none;
       }
 
-      @media screen and (min-width: $screen-lg) {
+      @media screen and (min-width: $screen-sm) {
         .preview:nth-child(4) {
           display: block;
         }
