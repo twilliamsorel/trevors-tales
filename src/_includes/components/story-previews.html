@@ -25,7 +25,7 @@
           {% else %}
 
             {% assign offset_num = stories | size | minus: 4 %}
-            {% for story in stories reversed | offset: offset_num | limit: 4  %}
+            {% for story in stories reversed %}
               {% include components/molecules/story-box.html story=story %}
             {% endfor %}
           {% endif %}
