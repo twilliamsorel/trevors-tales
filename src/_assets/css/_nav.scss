@@ -24,7 +24,7 @@ nav.main {
   width: 100%;
 
   span {
-    font-size: $spacing-500;
+    font-size: $spacing-600;
     font-weight: 500;
   }
 
@@ -32,6 +32,7 @@ nav.main {
     list-style: none;
     float: right;
     font-weight: 500;
+    margin-top: $spacing-base;
 
     li {
       display: inline-block;

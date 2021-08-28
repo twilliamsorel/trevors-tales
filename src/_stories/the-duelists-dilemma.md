@@ -7,6 +7,7 @@ description: An 18th century pistol duel takes a turn for the worse when an unex
 categories: 
   - period fiction
   - short story
+featured: true
 ---
 
 “Engarde, you godless filth!” bellowed Collin McIntyre, waving his dueling pistol in front of him as though he was clutching the tail of a snake. “I’ll see you dead tonight!”

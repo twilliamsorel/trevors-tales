@@ -4,36 +4,20 @@ title: Home
 image: uploads/starship-redemption-1.jpg
 ---
 
+{% comment %}
+I'll add this section back in once I have more to display on the homepage, like: recent publications.
+
 <div class="bg-black padding-vertical-600">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="white margin-vertical-400">Featured</h1>
+        <h1 class="white margin-vertical-400">Featured Stories</h1>
         {% include components/feature-preview.html %}
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4 col-xl-5">
-        <div class="header-wrapper">
-          <h1 class="white margin-vertical-400"><a href="/blog"><span class="d-md-none d-lg-inline">From the</span> Blog</a></h1>
-          <a href="/blog" class="right-link white"><span class="text d-md-none d-xl-inline">view all</span> <i class="fas fa-arrow-alt-circle-right"></i></a>
-        </div>
-        {% assign offset_number = site.blog | size | minus: 2 %}
-        {% for item in site.blog reversed offset: offset_number limit: 2 %}
-          {% include components/blog-preview.html item=item %}
-        {% endfor %}
-      </div>
-      <div class="col-12 col-md-6 col-lg-8 col-xl-7">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="header-wrapper">
-              <h1 class="white margin-vertical-400"><a href="/stories"><span class="d-md-none d-lg-inline">Recent</span> Stories</a></h1>
-              <a href="/stories" class="right-link white"><span class="text d-md-none d-xl-inline">view all</span> <i class="fas fa-arrow-alt-circle-right"></i></a>
-            </div>
-          </div>
-        </div>
-        {% include components/story-previews-home.html classes="home" %}
       </div>
     </div>
   </div>
 </div>
+{% endcomment %}
+
+{% include components/header.html header="Featured Stories" %}
+{% include components/story-previews.html classes="margin-vertical-1200" featured="true" %}

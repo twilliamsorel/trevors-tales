@@ -23,11 +23,16 @@
               {% endfor %}
             {% endif %}
           {% else %}
-
-            {% assign offset_num = stories | size | minus: 4 %}
-            {% for story in stories reversed %}
-              {% include components/molecules/story-box.html story=story %}
-            {% endfor %}
+            {% if include.featured %}
+              {% assign featured_stories = site.stories | where: 'featured', 'true' %}
+              {% for story in featured_stories reversed %}
+                {% include components/molecules/story-box.html story=story %}
+              {% endfor %}
+            {% else %}
+              {% for story in stories reversed %}
+                {% include components/molecules/story-box.html story=story %}
+              {% endfor %}
+            {% endif %}
           {% endif %}
         </div>
       </div>
