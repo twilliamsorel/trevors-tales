@@ -1,0 +1,17 @@
+.molecule.poem-box {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New";
+
+  a {
+    border: none;
+    display: block;
+    background: white;
+    box-shadow: $box-shadow-light;
+    width: 100%;
+    padding: $spacing-400;
+
+    p {
+      font-size: $font-size-small;
+      margin-top: $spacing-400;
+    }
+  }
+}

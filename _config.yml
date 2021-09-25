@@ -36,9 +36,10 @@ collections:
   stories:
     output: true
     permalink: /stories/:title
-  blog:
+  poems:
     output: true
-    permalink: /blog/:title
+    permalink: /poems/:title
+    sort_by: date
   categories:
     output: true
     permalink: /categories/:title
@@ -46,7 +47,7 @@ collections:
 feed:
   collections:
     - stories
-    - blog
+    - poems
     
 # Asset Manager Configs
 assets:

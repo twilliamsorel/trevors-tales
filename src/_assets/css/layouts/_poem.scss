@@ -1,0 +1,60 @@
+.poem-container {
+  background: $gray-200;
+  padding: $spacing-base $spacing-800;
+  z-index: $z-index-base;
+
+  @media screen and (max-width: $screen-xs) {
+    padding: $spacing-600 $spacing-400;
+  }
+}
+
+.poem-section {
+  position: relative;
+  max-width: 750px;
+  padding: $spacing-600 $spacing-1000 $spacing-1000 $spacing-1000;
+  background: $white-200;
+  font-weight: 100;
+  margin: $spacing-600 auto;
+  box-shadow: $box-shadow-basic;
+
+
+  p {
+    margin: $spacing-400 0;
+  }
+
+  .arrow.fs {
+    top: calc(50% - 25px);
+    color: white;  
+    position: absolute;
+
+    &.left {
+      left: -50px;
+    }
+    &.right {
+      right: -50px;
+    }
+  }
+
+  .arrow-section {
+    &.mobile {
+      color: inherit;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: $spacing-200 0 0;
+
+      &.right {
+        justify-content: right;
+      }
+    }
+  }
+
+  @media screen and (max-width: $screen-sm) {
+    padding: $spacing-200 $spacing-500 $spacing-500 $spacing-500;
+  }
+}
+
+.arrow {
+  display: block;
+  font-size: $font-size-400;
+}
