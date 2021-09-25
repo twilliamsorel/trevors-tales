@@ -4,9 +4,6 @@ title: Home
 image: uploads/starship-redemption-1.jpg
 ---
 
-{% comment %}
-I'll add this section back in once I have more to display on the homepage, like: recent publications.
-
 <div class="bg-black padding-vertical-600">
   <div class="container">
     <div class="row">
@@ -15,9 +12,12 @@ I'll add this section back in once I have more to display on the homepage, like:
         {% include components/feature-preview.html %}
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="white margin-vertical-400">Recent Poems</h1>
+        {% include components/poem-previews.html limit="3" %}
+      </div>
+    </div>
   </div>
 </div>
-{% endcomment %}
-
-{% include components/header.html header="Featured Stories" %}
-{% include components/story-previews.html classes="margin-vertical-1200" featured="true" %}

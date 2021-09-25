@@ -1,17 +1,34 @@
 .molecule.poem-box {
   font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New";
+  width: 100%;
+  border: none;
+  background: white;
+  box-shadow: $box-shadow-light;
+  width: 100%;
+  padding: $spacing-400;
+  position: relative;
+  margin: 0 0 $spacing-400;
 
-  a {
-    border: none;
-    display: block;
-    background: white;
-    box-shadow: $box-shadow-light;
-    width: 100%;
-    padding: $spacing-400;
+  p {
+    font-size: $font-size-small;
+    margin-top: $spacing-400;
+  }
 
-    p {
-      font-size: $font-size-small;
-      margin-top: $spacing-400;
-    }
+  .elipses {
+    position: absolute;
+    bottom: $spacing-200;
+
+  }
+
+  @media screen and (min-width: $screen-sm) {
+    width: 325px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    width: 350px;
   }
 }

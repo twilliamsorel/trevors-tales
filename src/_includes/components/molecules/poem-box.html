@@ -1,12 +1,12 @@
 {% assign poem = include.poem %}
 
-<article class="molecule poem-box">
-  <a href="{{ poem.url }}">
+<a href="{{ poem.url }}" class="molecule poem-box">
+  <article>
     <h2>{{ poem.title }}</h2>
     <p>
       {{ poem.preview }}
     </p>
 
     <div class="elipses">...</div>
-  </a>
-</article>
+  </article>
+</a>

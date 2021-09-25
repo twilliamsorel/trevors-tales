@@ -1,12 +1,12 @@
+{% assign poems = site.poems | sort: date | reverse %}
+
 <div class="component poem-previews {{ include.classes }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="poems">
-          {% for poem in site.poems %}
-            {% include components/molecules/poem-box.html poem=poem %}
-          {% endfor %}
-        </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="poems">
+        {% for poem in poems | limit: include.limit %}
+          {% include components/molecules/poem-box.html poem=poem %}
+        {% endfor %}
       </div>
     </div>
   </div>
