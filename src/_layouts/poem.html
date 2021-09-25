@@ -10,11 +10,11 @@ layout: default
   <a id="page-1" class="page-anchor indexed"></a>
   <div class="poem-section page">
     <div class="d-none d-lg-block">
-      {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="fs arrow left"><i class="fas fa-chevron-left"></i></a>
-      {% endif page.previous %}
       {% if page.next %}
-        <a href="{{ page.next.url }}" class="fs arrow right"><i class="fas fa-chevron-right"></i></a>
+        <a href="{{ page.next.url }}" class="fs arrow left"><i class="fas fa-chevron-left"></i></a>
+      {% endif%}
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="fs arrow right"><i class="fas fa-chevron-right"></i></a>
       {% endif %}
     </div>
 
@@ -24,11 +24,11 @@ layout: default
     </pre>
     <hr>
     <div class="arrow-section mobile d-flex d-lg-none {% unless page.previous %}right{% endunless %}">
-      {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="arrow left"><i class="fas fa-chevron-left"></i></a>
-      {% endif %}
       {% if page.next %}
-        <a href="{{ page.next.url }}" class="arrow right"><i class="fas fa-chevron-right"></i></a>
+        <a href="{{ page.next.url }}" class="arrow left"><i class="fas fa-chevron-left"></i></a>
+      {% endif %}
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="arrow right"><i class="fas fa-chevron-right"></i></a>
       {% endif %}
     </div>
   </div>
