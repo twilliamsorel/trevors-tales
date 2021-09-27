@@ -4,6 +4,9 @@ title: Home
 image: uploads/starship-redemption-1.jpg
 ---
 
+{% comment %}
+re-include this when I get poems published.
+
 <div class="bg-black padding-vertical-600">
   <div class="container">
     <div class="row">
@@ -21,3 +24,7 @@ image: uploads/starship-redemption-1.jpg
     </div>
   </div>
 </div>
+{% endcomment %}
+
+{% include components/header.html header="Featured Stories" %}
+{% include components/story-previews.html featured="true" classes="margin-vertical-1200" %}
