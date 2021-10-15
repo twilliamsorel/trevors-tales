@@ -12,9 +12,14 @@
   max-width: 750px;
   box-shadow: $box-shadow-basic;
   margin: $spacing-600 auto;
+  max-height: 800px;
+  overflow: hidden;
+  text-align: center;
+
 
   img {
     width: 100%;
+    object-fit: cover;
   }
 }
 

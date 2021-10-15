@@ -4,11 +4,16 @@ title: Home
 image: uploads/starship-redemption-1.jpg
 ---
 
-{% comment %}
-re-include this when I get poems published.
-
 <div class="bg-black padding-vertical-600">
   <div class="container">
+    
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="white margin-vertical-400">News and Updates</h1>
+        {% include components/news-list.html limit="3" %}
+      </div>
+    </div>
+
     <div class="row">
       <div class="col-md-12">
         <h1 class="white margin-vertical-400">Featured Stories</h1>
@@ -16,15 +21,23 @@ re-include this when I get poems published.
       </div>
     </div>
 
+    {% comment %}
+    Poems; re-include later. 
     <div class="row">
       <div class="col-md-12">
         <h1 class="white margin-vertical-400">Recent Poems</h1>
         {% include components/poem-previews.html limit="3" %}
       </div>
     </div>
+    {% endcomment %}
+
   </div>
 </div>
-{% endcomment %}
+
+
+{% comment %}
 
 {% include components/header.html header="Featured Stories" %}
 {% include components/story-previews.html featured="true" classes="margin-vertical-1200" %}
+
+{% endcomment %}

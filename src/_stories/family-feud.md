@@ -6,7 +6,7 @@ image: uploads/family-feud.jpeg
 description: The holidays aren't always sweetness and cheer... Just ask Anita, a young woman struggling to get through a gathering with her inlaws.
 categories: 
   - comedic fiction
-  - short story
+  - mainstream
 ---
 
 <i class="gray">Note: This story was originally written for a writing prompt competition on medium. The prompt was a single noun that had to be integrated as the integral part of the story. That noun was 'fruitcake'. So no, I don't just have a strange affinity for an esoteric pastry.</i>

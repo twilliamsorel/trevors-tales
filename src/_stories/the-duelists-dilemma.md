@@ -6,8 +6,8 @@ image: uploads/duelists-dilemma.jpeg
 description: An 18th century pistol duel takes a turn for the worse when an unexpected accident intertwines the fates of the two duelists.
 categories: 
   - period fiction
-  - short story
-featured: true
+  - mainstream
+  
 ---
 
 “Engarde, you godless filth!” bellowed Collin McIntyre, waving his dueling pistol in front of him as though he was clutching the tail of a snake. “I’ll see you dead tonight!”

@@ -1,0 +1,23 @@
+.component.news-list {
+  a.more {
+    background: $transparent-black;
+    display: inline-block;
+    padding: $spacing-base $spacing-300;
+    margin-top: $spacing-200;
+    color: white;
+    font-size: $font-size-200;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 165px;
+
+    &:hover {
+      color: $brown-100;
+    }
+
+    i {
+      display: block;
+    }
+  }
+}

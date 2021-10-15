@@ -43,6 +43,10 @@ collections:
   categories:
     output: true
     permalink: /categories/:title
+  news:
+    output: true
+    permalink: /news/:title
+    sort_by: date
 
 feed:
   collections:

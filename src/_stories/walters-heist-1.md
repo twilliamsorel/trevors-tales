@@ -6,7 +6,7 @@ comments: true
 image: uploads/walters-heist.jpg
 description: In order to survive in a dystopian society ravaged by disease, a young man steals rare medical supplies to sell to the wealthy. 
 categories: 
-  - literary
+  - mainstream
   - science fiction
 featured: true
 ---

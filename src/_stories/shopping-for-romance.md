@@ -6,8 +6,8 @@ comments: true
 image: uploads/shopping-for-romance.jpeg
 description: A man grapples with the negative aspects of dating culture that confront him as he goes on a date with a woman he met on the internet.
 categories: 
+  - mainstream
   - literary
-  - short story
 featured: true
 ---
 

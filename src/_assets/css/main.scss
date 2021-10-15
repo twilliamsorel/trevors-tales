@@ -21,11 +21,13 @@
 @import "components/header";
 @import "components/cta";
 @import "components/poem-previews";
+@import "components/news-list";
 
 // MOLECULES
 @import "components/molecules/story-box";
 @import "components/molecules/page-break";
 @import "components/molecules/poem-box";
+@import "components/molecules/news-item";
 
 img {
   -webkit-user-drag: none;

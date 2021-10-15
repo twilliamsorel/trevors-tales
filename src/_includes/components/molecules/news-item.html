@@ -1,0 +1,13 @@
+{% assign update = include.update %}
+
+<article class="molecule news-item">
+  <div class="row">
+    <div class="col-12 col-md-8">
+      <h3>{{ update.title }}</h3>
+      <date>{{ update.date | date: "%B %d, %Y" }}</date>
+      <p>
+        {{ update.content }}
+      </p>
+    </div>
+  </div>
+</article>

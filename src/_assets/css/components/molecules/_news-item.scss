@@ -1,0 +1,14 @@
+.molecule.news-item {
+  background: $transparent-black;
+  color: white;
+  padding: $spacing-400;
+
+  h3 {
+    margin-bottom: $spacing-200;
+  }
+
+  date {
+    margin-bottom: $spacing-200;
+    display: block;
+  }
+}

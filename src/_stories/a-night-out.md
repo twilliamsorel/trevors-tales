@@ -7,7 +7,7 @@ image: uploads/a-night-out.jpeg
 description: A young man, disillusioned by the bar scene in his native San Francisco, narrates his inner thoughts as he rides out a night on the town.
 categories: 
   - literary
-  - short story
+  - mainstream
 featured: true
 ---
 
