@@ -52,6 +52,7 @@ feed:
   collections:
     - stories
     - poems
+    - news
     
 # Asset Manager Configs
 assets:
