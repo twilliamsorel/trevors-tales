@@ -1,7 +1,7 @@
 {% assign counter = 0 %}
 
 <div class="component news-list">
-  {% for update in site.news limit=include.limit %}
+  {% for update in site.news reversed limit=include.limit %}
     {% include components/molecules/news-item.html update=include.update %}
     {% assign counter = counter | plus: '1' %}
   {% endfor %}

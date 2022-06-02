@@ -8,7 +8,7 @@ description: In order to survive in a dystopian society ravaged by disease, a yo
 categories: 
   - mainstream
   - science fiction
-featured: true
+
 ---
 
 It was a miserable morning for loitering outdoors, with gray skies above, cold ground beneath, and a damp air that soaked right through clothes, leaving the skin underneath feeling moist. We were standing outside a popup—one of those flimsy red cross tents for treating plague victims—leaning on an icy brick wall that sucked warmth from the body like a thermal leech. The sick were lining up before us, wrapping around the block as they waited for treatment, if you want to call it that; all coughing, gray skinned, and pitiful.

@@ -31,14 +31,14 @@ layout: default
   {% endif %}
 
   {% if page.url contains 'stories' %}
-      {% assign words = content | replace: "</p>", "</p><br>" | split: "<br>" %}
-      {% assign num_sections = words | size | divided_by: 10.0 | round %}
+      {% assign paragraphs = content | replace: "</p>", "</p><br>" | split: "<br>" %}
+      {% assign num_sections = paragraphs | size | divided_by: 10.0 | ceil %}
 
     {% if num_sections < 1 %}
       <a id="page-1" class="page-anchor indexed"></a>
       <div class="story-section page">
           
-        {% for word in words %} {{ word }} {% endfor %}
+        {% for word in paragraphs %} {{ word }} {% endfor %}
         
         <div class="page-number">-{{ 1 }}-</div>
       </div>
@@ -50,7 +50,7 @@ layout: default
         <a id="page-{{ i }}" class="page-anchor indexed"></a>
         <div class="story-section page">
             
-          {% for word in words limit: this_limit offset: this_offset %} {{ word }} {% endfor %}
+          {% for word in paragraphs limit: this_limit offset: this_offset %} {{ word }} {% endfor %}
           
           <div class="page-number">-{{ i }}-</div>
         </div>
