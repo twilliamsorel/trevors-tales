@@ -43,11 +43,9 @@ He’s doomed. I think to myself, morbidly enthralled by the spectacle. But one 
 
 “Sounds like you’ve figured it all out.”
 
-A tall blonde woman stumbles out of the shifting crowd and straight towards me, pulling me away from the conversation. She is followed by her complete opposite: a small and nervous looking brunette who keeps pulling at her arm. “Alice, don’t!” says the brunette, fear flashing across her face as the drunk woman approaches me — as though I’m some dangerous animal.
+A tall blonde woman stumbles out of the shifting crowd and straight towards me, pulling me away from the conversation. She is followed by her complete opposite: a small and nervous looking brunette who keeps pulling at her arm. “Alice, don’t!” says the brunette, fear flashing across her face as the drunk woman approaches me.
 
-Is this the state of man in my society, now? I think to myself, throwing the little brunette a contemptuous look. Guilty until proven innocent? I wasn’t even interested in this viking of a woman; she was far drunker than me, and not my type.
-
-“Hey, where are you from?” she slurs, shaking her friend off of her arm and leaning against the wall next to me; the little brunette gives up on prevention, and stands off to the side, on vigil with her arms crossed, ready to intervene. I am both impressed and offended by her continued efforts.
+“Hey, where are you from?” she slurs, shaking her friend off of her arm and leaning against the wall next to me; the little brunette gives up on prevention, and stands off to the side, on vigil with her arms crossed, ready to intervene.
 
 “I’m from here,” I say. “The Bay Area. And you?”
 
@@ -65,7 +63,7 @@ Is this the state of man in my society, now? I think to myself, throwing the lit
 
 “Yeah…” she says. I can’t tell if she’s just too drunk to hold a conversation, or wants me to take the lead.
 
-“What was your name?” I say, extending my hand. I know this will kill the conversation: formalizing relations and showing respect. It’s what we’re taught to do in normal situations, but from what I can tell, it’s the fastest way to blow your chances.
+“What was your name?” I say, extending my hand. This will kill the conversation: formalizing relations and showing respect. It’s what we’re taught to do in normal situations, but from what I can tell, it’s the fastest way to blow your chances.
 
 “Alice.”
 
@@ -101,7 +99,7 @@ I continue dancing, and rubbernecking the crowd. I see the redhead and her swart
 
 “I swear it’s like I’m watching the Discovery Channel,” I say under my breath.
 
-Indeed, grinding is more like a primitive courting ritual than it is dancing, but this is the norm (across animal species, in fact — I’m fairly certain baboons and orangutans do the same thing), and I’ve lost many an opportunity to women who were turned off by my indecisiveness in escalating the grind.
+Indeed, grinding is more like a primitive courting ritual than it is dancing, but this is the norm (across animal species, in fact), and I’ve lost many an opportunity to women who were turned off by my indecisiveness in escalating the grind.
 
 “Confusing, isn’t it, Danny? Are we supposed to be assertive, and push for dry humping in the club…” I say, pausing mid-sentence to pull off a spinning move. “Or do we show respect, to combat the misogynistic culture, and toxic masculinity, and stuff?”
 
@@ -153,11 +151,11 @@ We rejoin Tori at the bar, but the vibe is different now, and conversation doesn
 
 The crowd is a swarming mass of sweaty bodies now, packed into the tiny dancing space by the bar. Other guys, who managed to start dancing, are having similar issues to me: many tentative hands and uncertain hip thrusts; many women awkwardly drifting away from grinding partners.
 
-All this self-consciousness and confusion, even under the influence of alcohol, is boggling. But such is this goddamn millennial generation (of which I suppose I am a part). The scene reminds me of the lyrics to a song, Odd Look, By Kavinsky (featuring the Weeknd): “Your hesitation speaks to me, louder than a million words per minute,” … not the clearest english, those lyrics, but they feel poetic enough.
+All this self-consciousness and confusion, even under the influence of alcohol, is boggling. The scene reminds me of the lyrics to a song, Odd Look, By Kavinsky (featuring the Weeknd): “Your hesitation speaks to me, louder than a million words per minute.” Not the clearest english, those lyrics, but they feel poetic enough.
 
 Keep in mind, these are not just fresh-faced 21 year olds we speak of, although they dot the crowd with their wide eyes, glowing faces, and nervous posture. No, these are people ranging from their mid twenties to early thirties.
 
-I tell you, with each generation in America, we are taking longer and longer to grow up. Soon no one will be mature enough to have kids until they’re over 50, and well into menopause.
+I tell you, with each generation in America, we are taking longer and longer to grow up. Soon no one will be mature enough to have kids until they’re over 50, and well into menopause and erectile dysfunction.
 
 Indeed, that’ll be how our civilization crumbles; forget bombs and pandemics, it’ll be social ineptitude, and a universal fear of responsibility, that takes us down. I can see it now, birthrates plummeting until we can no longer sustain the economy and everything collapses. I smile sardonically at the thought.
 
@@ -187,15 +185,15 @@ Diane remains on her phone.
 
 “How’s a going?” I say.
 
-“Wait, who are you?” says Paula, moving to get in my face. “Like, where did you come from?”
+“Wait, who are you?” says Paula, moving to get in my face. “Where you come from?”
 
 “What do you mean?” I say. I can smell tequila on her breath. “Danny just introduced us.”
 
 “But, like, do I know you?”
 
-“I mean, we just met,” I give Danny a look that I hope says: You know how to pick ‘em.
+“I mean, we just met,” I give Danny a look that I hope says: you know how to pick ‘em.
 
-“Whoa, Guys, we’re all friends here!” says Danny, pulling at Paula’s shoulder. “No need to get like that.”
+“Whoa, guys, we’re all friends here!” says Danny, pulling at Paula’s shoulder.
 
 “Guys?!” Says Paula, her rage redirected at Danny. “Do you see any guys here? All I see are ladies.” She smacks his hand off her shoulder. “Who the fuck do you think you are? Don’t you touch me!”
 
@@ -203,9 +201,9 @@ Diane remains on her phone.
 
 “Say, y’all,” says Paula, her eyes narrowing to slits as she sticks out her chin.
 
-“What? Like I’m from the South?” says Danny. “No way. I’ve always said ‘guys’. It’s just a figure of speech.”
+“What? Like I’m from the South?” says Danny. “I’ve always said ‘guys’.”
 
-“You’re being very disrespectful right now,” says Paula, waving her finger in Danny’s face. “And you’re lucky, cause if I was sensitive about my gender identity, I might knock you the fuck out.”
+“You’re being very disrespectful right now,” says Paula, waving her finger in Danny’s face. “And you’re lucky, cause if I was a little more sensitive, I might knock you the fuck out.”
 
 “C’mon Danny,” I say, pulling at his arm. “Let’s go.”
 
@@ -219,13 +217,13 @@ Diane remains on her phone.
 
 “I dunno man. They seemed chill at first.” he says, rubbing his eyes. I can tell he’s pretty drunk. “So are we just going home, or what?”
 
-“I don’t know,” I say. “We could. things will be closing down soon anyway.”
+“I don’t know,” I say. “We could. Things will be closing down soon anyway.”
 
 A man passing on the street taps my arm anxiously. “Yo man, you got a cigarette I could bum?”
 
 “Sorry, I don’t smoke,” I say. The man grunts and waddles off.
 
-The interaction brings back a collection of vague memories. I used to hang out with the smokers on occasion, through high school and college&mdash;back when smoking was an identity. They just seemed to fit my personality more: a misanthropic crowd with a penchant for philosophical conversation. Somehow, I managed never to pick up the habit myself, although I often think my life would make so much more sense if I did.
+The interaction brings back a collection of vague memories. I used to hang out with the smokers on occasion, through high school and college&mdash;back when smoking was an identity. They just seemed to fit my personality more: a misanthropic crowd with a penchant for philosophical conversation. Somehow, I managed never to pick up the habit myself.
 
 “You know what sounds good?” I say. “Whiskey and cigars.”
 
