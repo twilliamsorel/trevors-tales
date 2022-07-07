@@ -7,7 +7,7 @@
             <span><a href="/">Trevor's Tales</a></span>
 
             <ul class="no-margin d-none d-md-block fullscreen padding-top-100">
-              <li><a href="/stories">Stories</a></li>
+              {% if site.stories.length > 0 %}<li><a href="/stories">Stories</a></li>{% endif %}
               <!-- <li><a href="/poems">Poems</a></li> /-->
               <li><a href="/about">About</a></li>
               <li><a href="/contact">Contact</a></li>
