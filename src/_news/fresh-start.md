@@ -5,7 +5,7 @@ date: July 7, 2022
 
 ---
 
-Have you ever reached a new milestone in some endeavor, and looked back at your old work and realized that all of it was awful? That's where I'm at right now. I suppose the good news is that I'm growing as a writer... I hope. The bad news is that all of the old stories I posted here need to go away; indeed they may be hurting me and not helping in my quest to be published, even some of the published stuff. 
+Have you ever reached a new milestone in some endeavor, and looked back at your old work and realized that all of it was awful? That's where I'm at right now. I suppose the good news is that I'm growing as a writer... I hope. The bad news is that all of the old stories I posted here need to go away.
 <br><br>
 What all of this means is that this website is now empty, and will stay that way for the forseeable future. I plan on writing novels (and perhaps a few short stories) under a pen name. So unless that strategy changes, I may not post anything here ever again. 
 <br><br>
