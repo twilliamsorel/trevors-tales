@@ -1,0 +1,107 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "Title": "Test post",
+        "date": "2023-02-02",
+        "description": "This is a test",
+        "body": "This is a test. Lets see how this works out. ",
+        "createdAt": "2023-02-02T16:46:39.480Z",
+        "updatedAt": "2023-02-02T16:46:48.246Z",
+        "publishedAt": "2023-02-02T16:46:48.243Z",
+        "image": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "Title": "Test Two",
+        "date": "2023-02-03",
+        "description": "Another test here",
+        "body": "This is another test to see how this thing does generating content.",
+        "createdAt": "2023-02-02T18:20:47.908Z",
+        "updatedAt": "2023-02-02T18:24:40.286Z",
+        "publishedAt": "2023-02-02T18:23:48.304Z",
+        "image": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "business-card-back.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1098,
+              "height": 648,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_business-card-back.png",
+                  "hash": "thumbnail_business_card_back_f47b62b330",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 245,
+                  "height": 145,
+                  "size": 24.04,
+                  "url": "/uploads/thumbnail_business_card_back_f47b62b330.png"
+                },
+                "small": {
+                  "name": "small_business-card-back.png",
+                  "hash": "small_business_card_back_f47b62b330",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 295,
+                  "size": 82.61,
+                  "url": "/uploads/small_business_card_back_f47b62b330.png"
+                },
+                "medium": {
+                  "name": "medium_business-card-back.png",
+                  "hash": "medium_business_card_back_f47b62b330",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 750,
+                  "height": 443,
+                  "size": 171.96,
+                  "url": "/uploads/medium_business_card_back_f47b62b330.png"
+                },
+                "large": {
+                  "name": "large_business-card-back.png",
+                  "hash": "large_business_card_back_f47b62b330",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 1000,
+                  "height": 590,
+                  "size": 278.87,
+                  "url": "/uploads/large_business_card_back_f47b62b330.png"
+                }
+              },
+              "hash": "business_card_back_f47b62b330",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 100.14,
+              "url": "/uploads/business_card_back_f47b62b330.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-02-02T18:23:24.464Z",
+              "updatedAt": "2023-02-02T18:24:38.676Z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 2
+    }
+  }
+}
