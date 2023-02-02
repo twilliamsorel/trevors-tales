@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include structured-data.html %}
+
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -26,7 +26,7 @@ layout: default
 
   {% if page.image %}
     <div class="image-section">
-      {% asset '{{ page.image }}' alt='{{ page.title }} header image' %}
+      <img src="{{ page.image }}" alt='{{ page.title }} header image'>
     </div>
   {% endif %}
 

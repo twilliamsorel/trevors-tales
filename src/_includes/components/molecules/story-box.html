@@ -3,7 +3,7 @@
 <div class="preview {{ include.classes }}">
   <a href="{{ story.url }}">
     <div class="window">
-      {% if story.image %} {% asset '{{ story.image }}' alt='{{ story.title }} image' %} {% endif %}
+      {% if story.image %} <img src='{{ story.image }}' alt='{{ story.title }} image'> {% endif %}
     </div>
   </a>
   <h3 class="inverted">
